@@ -1,11 +1,3 @@
-body {
-  font-family: "Raleway", sans-serif;
-  font-weight: normal;
-  min-width: 320px;
-  position: relative;
-  line-height: 1.6;
-  -webkit-font-smoothing: antialised; }
-
 .hidden {
   display: none; }
 
@@ -246,7 +238,7 @@ section {
     display: inline-block;
     text-transform: uppercase;
     font-size: 1.2em;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     position: relative; }
 
 .sectContent {
@@ -264,8 +256,7 @@ section {
   letter-spacing: 2px; }
 
 .pers {
-  text-align: center;
-  margin-bottom: 30px; }
+  text-align: center; }
   .pers img {
     max-width: 300px;
     display: inline-block;
@@ -302,23 +293,5 @@ section h3 {
   font-size: 16px;
   margin: 0 0 25px 0;
   letter-spacing: 3px; }
-
-.resumeConntainer .left {
-  text-align: right;
-  border-right: 1px #999 solid; }
-  .resumeConntainer .left h3 {
-    text-align: right; }
-.resumeConntainer .right {
-  text-align: left; }
-  .resumeConntainer .right h3 {
-    text-align: left; }
-.resumeConntainer h3 {
-  color: #888;
-  letter-spacing: 2px;
-  font-size: 16px; }
-
-.resIcon {
-  font-size: 40px;
-  margin-bottom: 35px; }
 
 /*# sourceMappingURL=main.css.map */

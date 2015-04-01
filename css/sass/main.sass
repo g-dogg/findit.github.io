@@ -10,6 +10,14 @@ $fontH1: 2.8em
 @mixin kerning($kerning)
   letter-spacing: $kerning + px
 
+body
+  font-family: "Raleway", sans-serif
+  font-weight: normal
+  min-width: 320px
+  position: relative
+  line-height: 1.6
+  -webkit-font-smoothing: antialised
+
 .hidden
   display: none
 
@@ -241,7 +249,7 @@ section
     display: inline-block
     text-transform: uppercase
     font-size: 1.2em
-    +kerning(5)
+    +kerning(4)
     position: relative
 
 .sectContent
@@ -261,6 +269,7 @@ section
 
 .pers
   text-align: center
+  margin-bottom: 30px
   img
     max-width: 300px
     display: inline-block
@@ -292,6 +301,7 @@ section
     a:hover
       color: $nextText
 
+
 section
   h3
     color: $textColor
@@ -300,3 +310,22 @@ section
     font-size: 16px
     margin: 0 0 25px 0
     +kerning(3)
+
+.resumeConntainer
+  .left
+    text-align: right
+    border-right: 1px #999 solid
+    h3
+      text-align: right
+  .right
+    text-align: left
+    h3
+      text-align: left
+  h3
+    color: $textColor
+    +kerning(2)
+    font-size: 16px
+
+.resIcon
+  font-size: 40px
+  margin-bottom: 35px
