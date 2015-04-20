@@ -10,8 +10,9 @@ body {
   display: none; }
 
 section, .mainHead, svg, .toggleMenu {
-  position: relative;
-  text-align: center; }
+  position: relative; }
+  section h3, .mainHead h3, svg h3, .toggleMenu h3 {
+    text-align: center; }
 
 .bgLight {
   background-color: #b9b9bf; }
@@ -320,5 +321,18 @@ section h3 {
 .resIcon {
   font-size: 40px;
   margin-bottom: 35px; }
+
+.resumeItem .year {
+  background-color: #B22222;
+  color: #888;
+  display: inline-block;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-style: italic; }
+.resumeItem strong {
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=main.css.map */
