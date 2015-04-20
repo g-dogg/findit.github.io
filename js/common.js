@@ -1,6 +1,14 @@
 $(document).ready(function() {
 
+	$("#portfolioGrid").mixItUp();
+
+	$(".sPortfolio li").click(function() {
+		$(".sPortfolio li").removeClass("active");
+		$(this).addClass("active");
+	});
+
 	$(".popup").magnificPopup({type:"image"});
+	$(".popupContent").magnificPopup({type:"inline", midClick: true, closeOnContentClick: true, closeBtnInside: true});
 
 	$(".topText h1").animated("zoomIn", "fadeOutUp");
 	$(".topText p, .secHeader").animated("fadeInUp", "fadeOutDown");
@@ -8,9 +16,13 @@ $(document).ready(function() {
 	$(".animR").animated("fadeInLeft","fadeOutLeft");
 	$(".animFoto").animated("flipInY","flipOutY");
 
+	$(".left .resumeItem").animated("fadeInLeft","fadeOutLeft");
+	$(".right .resumeItem").animated("fadeInRight","fadeOutRight");
+
 	function heightDetect() {
 		$(".mainHead").css("height", $(window).height());
 	};
+
 	heightDetect();
 	$(window).resize(function() {
 		heightDetect();
@@ -36,7 +48,11 @@ $(document).ready(function() {
 				$(".topMenu li a").addClass("fadeInUp animated");
 			}
 	});
-;
+
+	$(".pfItem").each(function(i) {
+		$(this).find("a").attr("href", "#work" + i);
+		$(this).find(".pfDescr").attr("id", "work" + i);
+	});
 
 });
 $(window).load(function() {
