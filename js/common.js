@@ -54,6 +54,8 @@ $(document).ready(function() {
 		$(this).find(".pfDescr").attr("id", "work" + i);
 	});
 
+	$("input, select, textarea").jqBootstrapValidation();
+	$(".topMenu ul a").mPageScroll2id();
 });
 $(window).load(function() {
 
