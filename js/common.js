@@ -1,62 +1,40 @@
 $(document).ready(function() {
 
-	$("#portfolioGrid").mixItUp();
+	$(".section_header").animated("fadeInUp", "fadeOutDown");
 
-	$(".sPortfolio li").click(function() {
-		$(".sPortfolio li").removeClass("active");
-		$(this).addClass("active");
+	
+	//Ьутг
+	$('.menuButton .menuLink').click(function(e) {
+	e.preventDefault();
+	$(this).toggleClass('close');
+
+	if ($(".topMenu").is(":visible")) {
+			$(".topText").css("opacity", "1");
+			$(".topMenu").fadeOut(600);
+			$(".topMenu li a").removeClass("fadeInUp animated");
+		} else {
+			$(".topText").css("opacity", ".1");
+			$(".topMenu").fadeIn(600);
+			$(".topMenu li a").addClass("fadeInUp animated");
+		};
 	});
-
-	$(".popup").magnificPopup({type:"image"});
-	$(".popupContent").magnificPopup({type:"inline", midClick: true, closeOnContentClick: true, closeBtnInside: true});
-
-	$(".topText h1").animated("zoomIn", "fadeOutUp");
-	$(".topText p, .secHeader").animated("fadeInUp", "fadeOutDown");
-	$(".animL").animated("fadeInRight","fadeOutRight");
-	$(".animR").animated("fadeInLeft","fadeOutLeft");
-	$(".animFoto").animated("flipInY","flipOutY");
-
-	$(".left .resumeItem").animated("fadeInLeft","fadeOutLeft");
-	$(".right .resumeItem").animated("fadeInRight","fadeOutRight");
+    
+		$(".topMenu ul a").click(function() {
+		$(".topMenu").fadeOut(600);
+		//$(".menuLink").toggleClass("active");
+		$(".topText").css("opacity", "1");
+	}).append("<span>");
 
 	function heightDetect() {
 		$(".mainHead").css("height", $(window).height());
 	};
-
 	heightDetect();
 	$(window).resize(function() {
 		heightDetect();
 	});
 
-	$(".toggleMenu").click(function() {
-  $(".sandwich").toggleClass("active");
-	});
-
-	$(".topMenu ul a").click(function() {
-		$(".topMenu").fadeOut(600);
-		$(".sandwich").toggleClass("active");
-	}).append("<span>");
-
-	$(".toggleMenu").click(function(){
-			if($(".topMenu").is(":visible")){
-				$(".topText").removeClass("opacify");
-				$(".topMenu").fadeOut(600);
-				$(".topMenu li a").removeClass("fadeInUp animated");
-			}else{
-				$(".topText").addClass("opacify");
-				$(".topMenu").fadeIn(600);
-				$(".topMenu li a").addClass("fadeInUp animated");
-			}
-	});
-
-	$(".pfItem").each(function(i) {
-		$(this).find("a").attr("href", "#work" + i);
-		$(this).find(".pfDescr").attr("id", "work" + i);
-	});
-
-	$("input, select, textarea").jqBootstrapValidation();
-	$(".topMenu ul a").mPageScroll2id();
 });
+
 $(window).load(function() {
 
 	$(".loaderInner").fadeOut();

@@ -1,297 +1,65 @@
-.hidden {
-  display: none; }
+/*
+Error: Undefined variable: "$menu".
+        on line 20 of /media/g-dogg/DATA/Web_Projects/findit.github.io/findit.github.io/css/sass/main.sass
 
-section, .mainHead, svg, .toggleMenu {
-  position: relative;
-  text-align: center; }
+15: 
+16: .hidden
+17:   display: none
+18: 
+19: .menuLink
+20:   color: $menu
+21:   display: inline-block
+22:   font-size: 1.125rem
+23:   text-transform: uppercase
+24:   font-weight: 700
+25:   position: relative
 
-.bgLight {
-  background-color: #b9b9bf; }
-
-.bgDark {
-  background-color: #2f2f38;
-  color: #fff; }
-
-.mainHead {
-  height: 620px;
-  padding-top: 20px; }
-
-.mainBgColor {
-  background-color: #222e42; }
-
-.loader {
-  background: none repeat scroll 0 0 #ffffff;
-  bottom: 0;
-  height: 100%;
-  left: 0;
-  position: fixed;
-  right: 0;
-  top: 0;
-  width: 100%;
-  z-index: 9999; }
-  .loader .loaderInner {
-    background-image: url("../img/load.gif");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-color: #fff;
-    background-size: cover;
-    height: 100px;
-    width: 100px;
-    margin-top: -30px;
-    margin-left: -30px;
-    left: 50%;
-    top: 50%;
-    position: absolute; }
-
-.logoCont {
-  float: left; }
-
-svg {
-  height: 100px;
-  width: 200px;
-  z-index: 100; }
-
-path {
-  fill: #ffffff; }
-
-.toggleMenu {
-  background-color: #222e42;
-  height: 60px;
-  width: 60px;
-  position: fixed;
-  float: right;
-  z-index: 100;
-  border: none;
-  right: 20px;
-  top: 20px; }
-  .toggleMenu span {
-    display: block; }
-
-.sandwich {
-  width: 32px;
-  height: 32px;
-  position: absolute;
-  top: 9px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  z-index: 200; }
-
-.sw-topper {
-  position: relative;
-  top: 0;
-  width: 32px;
-  height: 3px;
-  background: white;
-  border: none;
-  border-radius: 4px 4px 4px 4px;
-  transition: transform 0.5s, top 0.2s; }
-
-.sw-bottom {
-  position: relative;
-  width: 32px;
-  height: 3px;
-  top: 6px;
-  background: white;
-  border: none;
-  border-radius: 4px 4px 4px 4px;
-  transition: transform 0.5s, top 0.2s;
-  transition-delay: 0.2s, 0s; }
-
-.sw-footer {
-  position: relative;
-  width: 32px;
-  height: 3px;
-  top: 12px;
-  background: white;
-  border: none;
-  border-radius: 4px 4px 4px 4px;
-  transition: all 0.5s;
-  transition-delay: 0.1s; }
-
-.sandwich.active .sw-topper {
-  top: 10px;
-  transform: rotate(45deg); }
-.sandwich.active .sw-bottom {
-  top: 7px;
-  transform: rotate(315deg); }
-.sandwich.active .sw-footer {
-  opacity: 0;
-  top: 0;
-  transform: rotate(180deg); }
-
-.topMenu {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  z-index: 50;
-  right: 0;
-  top: 0;
-  display: none; }
-  .topMenu ul, .topMenu li {
-    list-style-type: none;
-    padding: 0;
-    margin: 0; }
-  .topMenu ul {
-    margin-top: 180px;
-    text-align: center; }
-    .topMenu ul li:nth-child(1) a {
-      -webkit-animation-duration: 0.5s;
-      -moz-animation-duration: 0.5s;
-      animation-duration: 0.5s; }
-    .topMenu ul li:nth-child(2) a {
-      -webkit-animation-duration: 1s;
-      -moz-animation-duration: 1s;
-      animation-duration: 1s; }
-    .topMenu ul li:nth-child(3) a {
-      -webkit-animation-duration: 1.5s;
-      -moz-animation-duration: 1.5s;
-      animation-duration: 1.5s; }
-    .topMenu ul li:nth-child(4) a {
-      -webkit-animation-duration: 2s;
-      -moz-animation-duration: 2s;
-      animation-duration: 2s; }
-    .topMenu ul a {
-      color: #fff;
-      display: block;
-      text-transform: uppercase;
-      font-size: 12px;
-      height: 60px;
-      opacity: 0;
-      position: relative;
-      letter-spacing: 4px; }
-      .topMenu ul a:hover {
-        color: #885c41; }
-      .topMenu ul a span {
-        display: block;
-        position: relative;
-        top: -40px;
-        left: 0;
-        height: 100%; }
-        .topMenu ul a span:hover {
-          background-color: rgba(255, 255, 255, 0.08);
-          -webkit-transition: all 0.5s ease;
-          -moz-transition: all 0.5s ease;
-          transition: all 0.5s ease; }
-
-.topWrapper {
-  display: table;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 400px;
-  left: 0;
-  z-index: 10; }
-  .topWrapper .topDescr {
-    display: table-row; }
-    .topWrapper .topDescr .topCentred {
-      display: tabble-cell;
-      text-align: center;
-      vertical-align: middle; }
-  .topWrapper .topText {
-    display: inline-block; }
-    .topWrapper .topText h1 {
-      display: inline-block;
-      padding: 10px 30px;
-      color: white;
-      border: 6px solid white;
-      text-transform: uppercase;
-      font-weight: 600;
-      font-size: 2em;
-      margin: 0 20px 0 20px;
-      padding: 1px 100px 1px 100px;
-      -webkit-animation-delay: 1.2s;
-      -moz-animation-delay: 1.2s;
-      animation-delay: 1.2s; }
-    .topWrapper .topText p {
-      color: #D6DEFF;
-      margin: 10px 0;
-      text-transform: uppercase;
-      letter-spacing: 3px;
-      -webkit-animation-delay: 1.5s;
-      -moz-animation-delay: 1.5s;
-      animation-delay: 1.5s; }
-
-.opacify {
-  opacity: 0.3;
-  -webkit-transition: all 0.25 ease;
-  -moz-transition: all 0.25 ease;
-  transition: all 0.25 ease; }
-
-section {
-  padding: 70px 0; }
-  section h2 {
-    text-align: center;
-    font-size: 2.8em;
-    margin: 15px 0 0;
-    text-transform: uppercase; }
-
-.sDescrWr {
-  text-align: center;
-  border-bottom: 2px solid white;
-  width: 300px;
-  margin: 0 auto;
-  padding: 0 0 20px 0; }
-  .sDescrWr .sDescr {
-    display: inline-block;
-    text-transform: uppercase;
-    font-size: 1.2em;
-    letter-spacing: 5px;
-    position: relative; }
-
-.sectContent {
-  font-size: 1.2em;
-  margin: 60px 0 60px; }
-
-.sResume .sDescrWr {
-  border-bottom: 2px solid #2f2f38; }
-
-.mainFooter {
-  padding: 50px 50px;
-  font-size: 1.4em;
-  color: #888;
-  font-weight: 300;
-  letter-spacing: 2px; }
-
-.pers {
-  text-align: center; }
-  .pers img {
-    max-width: 300px;
-    display: inline-block;
-    border-radius: 50%; }
-
-.sAbout h2 {
-  font-size: 1.6em;
-  font-weight: 600;
-  letter-spacing: 2px; }
-.sAbout p {
-  margin-bottom: 25px;
-  text-align: right; }
-  .sAbout p:nth-child(even) {
-    color: #B22222; }
-.sAbout ul, .sAbout li {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-align: left; }
-.sAbout .socWrap {
-  margin-top: 20px; }
-
-.socWrap li {
-  display: inline-block;
-  font-size: 30px;
-  padding: 0 5px; }
-  .socWrap li a:hover {
-    color: #B22222; }
-
-section h3 {
-  color: #888;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 16px;
-  margin: 0 0 25px 0;
-  letter-spacing: 3px; }
-
-/*# sourceMappingURL=main.css.map */
+Backtrace:
+/media/g-dogg/DATA/Web_Projects/findit.github.io/findit.github.io/css/sass/main.sass:20
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/script/tree/variable.rb:49:in `_perform'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/script/tree/node.rb:50:in `perform'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `map'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+/usr/share/koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+/usr/share/koala/bin/sass:18:in `load'
+/usr/share/koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$menu\".\A         on line 20 of /media/g-dogg/DATA/Web_Projects/findit.github.io/findit.github.io/css/sass/main.sass\A \A 15: \A 16: .hidden\A 17:   display: none\A 18: \A 19: .menuLink\A 20:   color: $menu\A 21:   display: inline-block\A 22:   font-size: 1.125rem\A 23:   text-transform: uppercase\A 24:   font-weight: 700\A 25:   position: relative"; }
