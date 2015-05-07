@@ -3,10 +3,12 @@
   display: none; }
 
 .menuButton {
-  z-index: 99999; }
+  z-index: 99999;
+  position: absolute;
+  border: 1px solid red; }
   .menuButton .menuLink {
-    position: fixed;
-    z-index: 50;
+    position: absolute;
+    z-index: 100;
     right: 0;
     top: 0;
     display: none;
@@ -15,9 +17,8 @@
     font-size: 1.125rem;
     text-transform: uppercase;
     font-weight: 700;
-    position: relative;
-    left: 50%;
-    margin: 100px 0 0 -20px; }
+    margin: 20px 0 0 -20px;
+    text-align: center; }
     .menuButton .menuLink:before {
       content: "";
       background: #265D6B;
@@ -25,8 +26,6 @@
       width: 40px;
       position: absolute;
       top: -10px;
-      left: 50%;
-      margin: 0 0 0 -20px;
       display: block;
       transition: all 0.3s ease-out;
       -webkit-transition: all 0.3s ease-out;
@@ -40,8 +39,6 @@
       width: 40px;
       position: absolute;
       top: -20px;
-      left: 50%;
-      margin: 0 0 0 -20px;
       display: block;
       transition: all 0.3s ease-out;
       -webkit-transition: all 0.3s ease-out;
@@ -49,15 +46,19 @@
       -ms-transition: all 0.3s ease-out;
       -o-transition: all 0.3s ease-out; }
     .menuButton .menuLink.close:before {
-      transform: rotate(45deg);
+      transform: rotate(-135deg);
       top: -15px;
+      left: 15px;
       width: 25px;
-      margin: 0 0 0 -13px; }
+      margin: 0 0 0 -13px;
+      z-index: 100; }
     .menuButton .menuLink.close:after {
       transform: rotate(-45deg);
       top: -15px;
+      left: 15px;
       width: 25px;
-      margin: 0 0 0 -13px; }
+      margin: 0 0 0 -13px;
+      z-index: 100; }
     .menuButton .menuLink a {
       font-family: "Oswald"; }
 
@@ -70,6 +71,8 @@
   right: 0;
   top: 0;
   display: none; }
+  .topMenu span {
+    display: block; }
   .topMenu ul,
   .topMenu li {
     list-style-type: none;
@@ -86,17 +89,17 @@
       -moz-animation-delay: 0;
       animation-delay: 0; }
     .topMenu ul li:nth-child(2) a {
-      -webkit-animation-delay: 0.1s;
-      -moz-animation-delay: 0.1s;
-      animation-delay: 0.1s; }
-    .topMenu ul li:nth-child(3) a {
       -webkit-animation-delay: 0.2s;
       -moz-animation-delay: 0.2s;
       animation-delay: 0.2s; }
+    .topMenu ul li:nth-child(3) a {
+      -webkit-animation-delay: 0.4s;
+      -moz-animation-delay: 0.4s;
+      animation-delay: 0.4s; }
     .topMenu ul li:nth-child(4) a {
-      -webkit-animation-delay: 0.3s;
-      -moz-animation-delay: 0.3s;
-      animation-delay: 0.3s; }
+      -webkit-animation-delay: 0.6s;
+      -moz-animation-delay: 0.6s;
+      animation-delay: 0.6s; }
     .topMenu ul a {
       color: #fff;
       display: block;

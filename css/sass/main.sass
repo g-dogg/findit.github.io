@@ -17,9 +17,11 @@
 
 .menuButton
   z-index: 99999
+  position: absolute
+  border: 1px solid red
   .menuLink
-    position: fixed
-    z-index: 50
+    position: absolute
+    z-index: 100
     right: 0
     top: 0
     display: none
@@ -28,9 +30,8 @@
     font-size: 1.125rem
     text-transform: uppercase
     font-weight: 700
-    position: relative
-    left: 50%
-    margin: 100px 0 0 -20px
+    margin: 20px 0 0 -20px
+    text-align: center
     &:before
       content: ""
       background: $menu
@@ -38,8 +39,6 @@
       width: 40px
       position: absolute
       top: -10px
-      left: 50%
-      margin: 0 0 0 -20px
       display: block
       @include transition(all)
     &:after
@@ -49,23 +48,28 @@
       width: 40px
       position: absolute
       top: -20px
-      left: 50%
-      margin: 0 0 0 -20px 
+
       display: block
       @include transition(all)
-    &.close 
-      &:before 
-        transform: rotate(45deg)    
+    &.close
+      &:before
+        transform: rotate(-135deg)
         top: -15px
+        left: 15px
         width: 25px
         margin: 0 0 0 -13px
-      &:after 
+        z-index: 100
+      &:after
         transform: rotate(-45deg)
         top: -15px
+        left: 15px
         width: 25px
         margin: 0 0 0 -13px
+        z-index: 100
     a
       font-family: 'Oswald'
+
+
 
 .topMenu
   position: fixed
@@ -76,6 +80,8 @@
   right: 0
   top: 0
   display: none
+  span
+    display: block
   ul,
   li
     list-style-type: none
@@ -89,11 +95,11 @@
       &:nth-child(1) a
         +animation-delay(0)
       &:nth-child(2) a
-        +animation-delay(.1s)
-      &:nth-child(3) a
         +animation-delay(.2s)
+      &:nth-child(3) a
+        +animation-delay(.4s)
       &:nth-child(4) a
-        +animation-delay(.3s)
+        +animation-delay(.6s)
     a
       color: #fff
       display: block

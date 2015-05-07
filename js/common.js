@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	$(".section_header").animated("fadeInUp", "fadeOutDown");
 
-	
+
 	//Ьутг
 	$('.menuButton .menuLink').click(function(e) {
 	e.preventDefault();
@@ -18,10 +18,10 @@ $(document).ready(function() {
 			$(".topMenu li a").addClass("fadeInUp animated");
 		};
 	});
-    
+
 		$(".topMenu ul a").click(function() {
 		$(".topMenu").fadeOut(600);
-		//$(".menuLink").toggleClass("active");
+		$(".menuLink").toggleClass("active");
 		$(".topText").css("opacity", "1");
 	}).append("<span>");
 
