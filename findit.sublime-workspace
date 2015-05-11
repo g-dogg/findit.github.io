@@ -143,18 +143,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 22383,
+				"buffer_size": 22087,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "$(document).ready(function() {\n\n	//Ьутг\n	$('.menuLink').click(function(e) {\n	e.preventDefault();\n	$(this).toggleClass('close');\n	});\n\n	function heightDetect() {\n		$(\".main_head\").css(\"height\", $(window).height());\n	};\n	heightDetect();\n	$(window).resize(function() {\n		heightDetect();\n	});\n\n});\n\n$(window).load(function() {\n\n	$(\".loaderInner\").fadeOut();\n	$(\".loader\").delay(300).fadeOut(\"slow\");\n\n});",
 			"file": "js/common.js",
-			"file_size": 1805,
-			"file_write_time": 130753017005810406,
 			"settings":
 			{
-				"buffer_size": 400,
+				"buffer_size": 950,
 				"line_ending": "Unix"
 			}
 		},
@@ -170,18 +167,15 @@
 			"file": "css/sass/main.sass",
 			"settings":
 			{
-				"buffer_size": 1295,
+				"buffer_size": 2385,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "#variables\n\n$fontColor: #222e42\n$menu: #fff\n",
 			"file": "css/sass/vars.sass",
-			"file_size": 28,
-			"file_write_time": 130753021040797345,
 			"settings":
 			{
-				"buffer_size": 44,
+				"buffer_size": 32,
 				"line_ending": "Unix"
 			}
 		}
@@ -234,11 +228,16 @@
 	],
 	"file_history":
 	[
+		"/media/g-dogg/DATA/Web_Projects/wordpress-landing-page-lesson-master/_clean_html/index.html",
+		"/media/g-dogg/DATA/Web_Projects/findit.github.io/findit.github.io/css/sass/main.sass",
+		"/media/g-dogg/DATA/Web_Projects/wordpress-landing-page-lesson-master/_clean_html/css/sass/main.sass",
+		"/media/g-dogg/DATA/Web_Projects/findit.github.io/findit.github.io/css/sass/vars.sass",
+		"/media/g-dogg/DATA/Web_Projects/findit.github.io/findit.github.io/css/sass/_vars.sass",
+		"/media/g-dogg/DATA/Web_Projects/findit.github.io/findit.github.io/css/main.css",
 		"/media/g-dogg/DATA/Web_Projects/fndIT_General/HTML5Application/public_html/js/common.js",
 		"/home/g-dogg/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/media/g-dogg/DATA/Web_Projects/findit.github.io/findit.github.io/css/sass/fonts.sass",
 		"/media/g-dogg/DATA/Web_Projects/findit.github.io/findit.github.io/css/fonts.css",
-		"/media/g-dogg/DATA/Web_Projects/findit.github.io/findit.github.io/css/sass/main.sass",
 		"/media/g-dogg/DATA/Web_Projects/findit.github.io/findit.github.io/js/common.js",
 		"/media/g-dogg/DATA/Web_Projects/findit.github.io/findit.github.io/index.html",
 		"/C/Users/Ilyash/Desktop/1с/21Сибэс.txt",
@@ -356,12 +355,7 @@
 		"/C/Documents and Settings/ilyash/Мои документы/reg/changeTimeZone.bat",
 		"/C/Documents and Settings/ilyash/Рабочий стол/CartStandart.txt",
 		"/C/Program Files/Miranda NG/Smileys/nova/Copyright_KOLOBOK.txt",
-		"/C/Documents and Settings/ilyash/Мои документы/время бежит",
-		"/T/Install/Antivirus/Kaspersky/riprep.txt",
-		"/C/Documents and Settings/ilyash/Application Data/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/C/Documents and Settings/ilyash/Local Settings/Temp/7zOB8.tmp/copyright.txt",
-		"/C/Documents and Settings/ilyash/Local Settings/Temp/7zOB2.tmp/LICENCE-FAQ.txt",
-		"/C/Documents and Settings/ilyash/Local Settings/Temp/7zOBD.tmp/FONTLOG.txt"
+		"/C/Documents and Settings/ilyash/Мои документы/время бежит"
 	],
 	"find":
 	{
@@ -421,15 +415,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 22383,
+						"buffer_size": 22087,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2489,
-								2489
+								1517,
+								1517
 							]
 						],
 						"settings":
@@ -440,7 +434,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 255.0,
+						"translation.y": 663.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -452,15 +446,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 400,
+						"buffer_size": 950,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								288,
-								288
+								91,
+								91
 							]
 						],
 						"settings":
@@ -489,8 +483,8 @@
 						"selection":
 						[
 							[
-								828,
-								828
+								369,
+								369
 							]
 						],
 						"settings":
@@ -499,8 +493,8 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": -0.0,
-						"translation.y": 153.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -518,21 +512,21 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1295,
+						"buffer_size": 2385,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1238,
-								1238
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Twilight.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -549,15 +543,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 44,
+						"buffer_size": 32,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								37,
-								37
+								0,
+								0
 							]
 						],
 						"settings":
