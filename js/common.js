@@ -28,6 +28,7 @@ $(document).ready(function() {
 	function heightDetect() {
 		$(".mainHead").css("height", $(window).height());
 	};
+
 	heightDetect();
 	$(window).resize(function() {
 		heightDetect();

@@ -1,6 +1,22 @@
 @import url("http://fonts.googleapis.com/css?family=Oswald:400,700");
+body {
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6; }
+
 .hidden {
   display: none; }
+
+section, .mainHead {
+  position: relative;
+  margin-bottom: 0; }
+
+.mainHead {
+  display: block;
+  background-color: #cfd8dc;
+  min-height: 480px; }
 
 .menuButton {
   z-index: 99999;
@@ -12,7 +28,7 @@
     right: 0;
     top: 0;
     display: none;
-    color: #265D6B;
+    color: #ffe0b2;
     display: inline-block;
     font-size: 1.125rem;
     text-transform: uppercase;
@@ -21,7 +37,7 @@
     text-align: centerd; }
     .menuButton .menuLink:before {
       content: "";
-      background: #265D6B;
+      background: #ffe0b2;
       height: 4px;
       width: 40px;
       position: absolute;
@@ -34,7 +50,7 @@
       -o-transition: all 0.3s ease-out; }
     .menuButton .menuLink:after {
       content: "";
-      background: #265D6B;
+      background: #ffe0b2;
       height: 4px;
       width: 40px;
       position: absolute;
@@ -123,8 +139,49 @@
         .topMenu ul a span:hover {
           background-color: rgba(255, 255, 255, 0.08); }
 
-.secAbout .sectContent img {
-  height: 30px;
-  width: 30px; }
+.topWrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10; }
+  .topWrapper .topText {
+    text-align: center;
+    display: block;
+    margin-top: 100px;
+    transition: all 1s ease 0.3s ease-out;
+    -webkit-transition: all 1s ease 0.3s ease-out;
+    -moz-transition: all 1s ease 0.3s ease-out;
+    -ms-transition: all 1s ease 0.3s ease-out;
+    -o-transition: all 1s ease 0.3s ease-out; }
+    .topWrapper .topText p {
+      color: #ffe0b2;
+      margin: 0;
+      text-transform: uppercase;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      animation-delay: 1s; }
+    .topWrapper .topText h1 {
+      display: inline-block;
+      padding: 10px 35px;
+      color: #ffe0b2;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 2.8em;
+      margin-left: 20px;
+      margin-right: 20px;
+      -webkit-animation-delay: 0.5s;
+      -moz-animation-delay: 0.5s;
+      animation-delay: 0.5s; }
+
+.secAbout {
+  display: block;
+  margin-top: 0;
+  padding-top: 0; }
+  .secAbout .sectContent img {
+    height: 60px;
+    width: 60px; }
 
 /*# sourceMappingURL=main.css.map */
