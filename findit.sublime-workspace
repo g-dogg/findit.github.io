@@ -147,8 +147,13 @@
 			"file": "index.html",
 			"settings":
 			{
+<<<<<<< HEAD
 				"buffer_size": 22211,
 				"line_ending": "Windows"
+=======
+				"buffer_size": 17230,
+				"line_ending": "Unix"
+>>>>>>> 2e6ead5369cfd69e0ac0702d0bca47eca83295e0
 			}
 		},
 		{
@@ -156,7 +161,11 @@
 			"settings":
 			{
 				"buffer_size": 943,
+<<<<<<< HEAD
 				"line_ending": "Windows"
+=======
+				"line_ending": "Unix"
+>>>>>>> 2e6ead5369cfd69e0ac0702d0bca47eca83295e0
 			}
 		},
 		{
@@ -171,6 +180,7 @@
 			"file": "/D/projects/findIT/css/sass/main.sass",
 			"settings":
 			{
+<<<<<<< HEAD
 				"buffer_size": 7587,
 				"line_ending": "Windows"
 			}
@@ -181,6 +191,18 @@
 			{
 				"buffer_size": 2439,
 				"line_ending": "Windows"
+=======
+				"buffer_size": 2509,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/sass/vars.sass",
+			"settings":
+			{
+				"buffer_size": 32,
+				"line_ending": "Unix"
+>>>>>>> 2e6ead5369cfd69e0ac0702d0bca47eca83295e0
 			}
 		}
 	],
@@ -232,6 +254,7 @@
 	],
 	"file_history":
 	[
+<<<<<<< HEAD
 		"/D/projects/wordpress-landing-page-lesson-master/wordpress-landing-page-lesson-master/_clean_html/js/common.js",
 		"/C/Users/Ilyash/Desktop/out.txt",
 		"/C/Users/Ilyash/Desktop/converter.properties",
@@ -266,6 +289,20 @@
 		"/D/projects/findit.github.io/css/sass/main.sass",
 		"/D/projects/findit.github.io/js/common.js",
 		"/C/Users/Ilyash/Desktop/IPSelector/IPSelector.exe.config",
+=======
+		"/media/g-dogg/DATA/Web_Projects/wordpress-landing-page-lesson-master/_clean_html/index.html",
+		"/media/g-dogg/DATA/Web_Projects/findit.github.io/findit.github.io/css/sass/main.sass",
+		"/media/g-dogg/DATA/Web_Projects/wordpress-landing-page-lesson-master/_clean_html/css/sass/main.sass",
+		"/media/g-dogg/DATA/Web_Projects/findit.github.io/findit.github.io/css/sass/vars.sass",
+		"/media/g-dogg/DATA/Web_Projects/findit.github.io/findit.github.io/css/sass/_vars.sass",
+		"/media/g-dogg/DATA/Web_Projects/findit.github.io/findit.github.io/css/main.css",
+		"/media/g-dogg/DATA/Web_Projects/fndIT_General/HTML5Application/public_html/js/common.js",
+		"/home/g-dogg/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/media/g-dogg/DATA/Web_Projects/findit.github.io/findit.github.io/css/sass/fonts.sass",
+		"/media/g-dogg/DATA/Web_Projects/findit.github.io/findit.github.io/css/fonts.css",
+		"/media/g-dogg/DATA/Web_Projects/findit.github.io/findit.github.io/js/common.js",
+		"/media/g-dogg/DATA/Web_Projects/findit.github.io/findit.github.io/index.html",
+>>>>>>> 2e6ead5369cfd69e0ac0702d0bca47eca83295e0
 		"/C/Users/Ilyash/Desktop/1с/21Сибэс.txt",
 		"/C/Users/Ilyash/Desktop/s.txt",
 		"/C/Users/Ilyash/Desktop/Новый текстовый документ.txt",
@@ -359,7 +396,31 @@
 		"/C/Documents and Settings/ilyash/Application Data/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/ARJ.TXT",
 		"/C/Documents and Settings/ilyash/Рабочий стол/Upd20x-2.0.23.1067/readme.txt",
+<<<<<<< HEAD
 		"/C/gostsum/checkSum.bat"
+=======
+		"/C/gostsum/checkSum.bat",
+		"/C/2.txt",
+		"/C/gostsum/checkSum.txt",
+		"/C/gostsum/README.txt",
+		"/C/1.txt",
+		"/S/ARCHIVE/2346U/readme.txt",
+		"/S/HOME/EXCHANGE/Оборотно-сальдовая ведомос.dat",
+		"/S/DUTYDOCS/Продолжается Первый всероссийский конкурс ГОДОВОЙ ОТЧЕТ ЭКСТЕРНОМ!_20090318.TXT",
+		"/C/Documents and Settings/ilyash/Мои документы/ЦБ/Текстовый документ.txt",
+		"/C/Documents and Settings/ilyash/Рабочий стол/O0971314102901/SBF015209713_550320141029_0208000014012130_200.TXT",
+		"/C/Documents and Settings/ilyash/Рабочий стол/Омск/Омск/F665/READ_MY.TXT",
+		"/C/Documents and Settings/ilyash/Local Settings/Temp/chocolatey/systemninja/failure.log",
+		"/C/Documents and Settings/ilyash/Рабочий стол/Rjyc+.txt",
+		"/C/Programms/TZData/tzupdater-1.4.8-2014h/README",
+		"/C/zabbix_agentd.conf",
+		"/C/Documents and Settings/ilyash/Рабочий стол/timezone.txt",
+		"/C/Programms/wScheduler/ReadMe.txt",
+		"/C/Documents and Settings/ilyash/Мои документы/reg/changeTimeZone.bat",
+		"/C/Documents and Settings/ilyash/Рабочий стол/CartStandart.txt",
+		"/C/Program Files/Miranda NG/Smileys/nova/Copyright_KOLOBOK.txt",
+		"/C/Documents and Settings/ilyash/Мои документы/время бежит"
+>>>>>>> 2e6ead5369cfd69e0ac0702d0bca47eca83295e0
 	],
 	"find":
 	{
@@ -420,7 +481,11 @@
 					"semi_transient": false,
 					"settings":
 					{
+<<<<<<< HEAD
 						"buffer_size": 22211,
+=======
+						"buffer_size": 17230,
+>>>>>>> 2e6ead5369cfd69e0ac0702d0bca47eca83295e0
 						"regions":
 						{
 							"TagLint":
@@ -440,8 +505,13 @@
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								21590,
 								21590
+=======
+								4596,
+								4596
+>>>>>>> 2e6ead5369cfd69e0ac0702d0bca47eca83295e0
 							]
 						],
 						"settings":
@@ -519,10 +589,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+<<<<<<< HEAD
 						"translation.y": 7746.0,
+=======
+						"translation.y": 622.0,
+>>>>>>> 2e6ead5369cfd69e0ac0702d0bca47eca83295e0
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -538,8 +612,13 @@
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								580,
 								580
+=======
+								0,
+								0
+>>>>>>> 2e6ead5369cfd69e0ac0702d0bca47eca83295e0
 							]
 						],
 						"settings":
@@ -618,7 +697,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -647,8 +726,13 @@
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								1501,
 								1472
+=======
+								369,
+								369
+>>>>>>> 2e6ead5369cfd69e0ac0702d0bca47eca83295e0
 							]
 						],
 						"settings":
@@ -725,10 +809,17 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+<<<<<<< HEAD
 						"translation.y": 450.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
+=======
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+>>>>>>> 2e6ead5369cfd69e0ac0702d0bca47eca83295e0
 					"type": "text"
 				},
 				{
@@ -737,15 +828,24 @@
 					"semi_transient": false,
 					"settings":
 					{
+<<<<<<< HEAD
 						"buffer_size": 7587,
+=======
+						"buffer_size": 2509,
+>>>>>>> 2e6ead5369cfd69e0ac0702d0bca47eca83295e0
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								2480,
 								2480
+=======
+								1957,
+								1957
+>>>>>>> 2e6ead5369cfd69e0ac0702d0bca47eca83295e0
 							]
 						],
 						"settings":
@@ -821,10 +921,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+<<<<<<< HEAD
 						"translation.y": 1080.0,
+=======
+						"translation.y": 1530.0,
+>>>>>>> 2e6ead5369cfd69e0ac0702d0bca47eca83295e0
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -839,15 +943,24 @@
 					"semi_transient": false,
 					"settings":
 					{
+<<<<<<< HEAD
 						"buffer_size": 2439,
+=======
+						"buffer_size": 32,
+>>>>>>> 2e6ead5369cfd69e0ac0702d0bca47eca83295e0
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								779,
 								779
+=======
+								0,
+								0
+>>>>>>> 2e6ead5369cfd69e0ac0702d0bca47eca83295e0
 							]
 						],
 						"settings":
@@ -926,7 +1039,11 @@
 						"translation.y": 162.0,
 						"zoom_level": 1.0
 					},
+<<<<<<< HEAD
 					"stack_index": 1,
+=======
+					"stack_index": 2,
+>>>>>>> 2e6ead5369cfd69e0ac0702d0bca47eca83295e0
 					"type": "text"
 				}
 			]
@@ -1016,7 +1133,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
