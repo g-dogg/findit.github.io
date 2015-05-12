@@ -1,0 +1,43 @@
+@import "bourbon/bourbon"
+@import vars
+
+@mixin kerning($kerning)
+  letter-spacing: $kerning + px
+
+@mixin transition ($properties...)
+  transition: $properties .3s ease-out
+  -webkit-transition: $properties .3s ease-out
+  -moz-transition: $properties .3s ease-out
+  -ms-transition: $properties .3s ease-out
+  -o-transition: $properties .3s ease-out
+
+*, body, html
+  margin: 0
+  padding: 0
+
+.mainHead
+  display: block
+
+.hidden
+  display: none
+
+.mainHead
+  position: relative
+  min-height: 480px
+  .titleWrapper
+    display: block
+    padding: 150px
+    top: 0
+    left: 0
+    text-align: center
+    vertical-align: middle
+    h1
+      display: inline-block
+      margin: 0
+    p
+      text-transform: uppercase
+
+.about
+  img
+    height: 300px
+    width: 300px
