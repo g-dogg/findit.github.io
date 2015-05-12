@@ -1,130 +1,31 @@
-@import url("http://fonts.googleapis.com/css?family=Oswald:400,700");
+*, body, html {
+  margin: 0;
+  padding: 0; }
+
+.mainHead {
+  display: block; }
+
 .hidden {
   display: none; }
 
-.menuButton {
-  z-index: 99999;
-  position: absolute;
-  border: 1px solid red; }
-  .menuButton .menuLink {
-    position: absolute;
-    z-index: 100;
-    right: 0;
+.mainHead {
+  position: relative;
+  min-height: 480px; }
+  .mainHead .titleWrapper {
+    display: block;
+    padding: 150px;
     top: 0;
-    display: none;
-    color: #265D6B;
-    display: inline-block;
-    font-size: 1.125rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin: 20px 0 0 -20px;
-    text-align: center; }
-    .menuButton .menuLink:before {
-      content: "";
-      background: #265D6B;
-      height: 4px;
-      width: 40px;
-      position: absolute;
-      top: -10px;
-      display: block;
-      transition: all 0.3s ease-out;
-      -webkit-transition: all 0.3s ease-out;
-      -moz-transition: all 0.3s ease-out;
-      -ms-transition: all 0.3s ease-out;
-      -o-transition: all 0.3s ease-out; }
-    .menuButton .menuLink:after {
-      content: "";
-      background: #265D6B;
-      height: 4px;
-      width: 40px;
-      position: absolute;
-      top: -20px;
-      display: block;
-      transition: all 0.3s ease-out;
-      -webkit-transition: all 0.3s ease-out;
-      -moz-transition: all 0.3s ease-out;
-      -ms-transition: all 0.3s ease-out;
-      -o-transition: all 0.3s ease-out; }
-    .menuButton .menuLink.close:before {
-      transform: rotate(-135deg);
-      top: -15px;
-      left: 15px;
-      width: 25px;
-      margin: 0 0 0 -13px;
-      z-index: 100; }
-    .menuButton .menuLink.close:after {
-      transform: rotate(-45deg);
-      top: -15px;
-      left: 15px;
-      width: 25px;
-      margin: 0 0 0 -13px;
-      z-index: 100; }
-    .menuButton .menuLink a {
-      font-family: "Oswald"; }
-
-.topMenu {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.85);
-  z-index: 50;
-  right: 0;
-  top: 0;
-  display: none; }
-  .topMenu span {
-    display: block; }
-  .topMenu ul,
-  .topMenu li {
-    list-style-type: none;
-    padding: 0;
-    margin: 0; }
-  .topMenu ul {
-    margin-top: 180px;
+    left: 0;
     text-align: center;
-    -webkit-animation-duration: 0.01s;
-    -moz-animation-duration: 0.01s;
-    animation-duration: 0.01s; }
-    .topMenu ul li:nth-child(1) a {
-      -webkit-animation-delay: 0;
-      -moz-animation-delay: 0;
-      animation-delay: 0; }
-    .topMenu ul li:nth-child(2) a {
-      -webkit-animation-delay: 0.2s;
-      -moz-animation-delay: 0.2s;
-      animation-delay: 0.2s; }
-    .topMenu ul li:nth-child(3) a {
-      -webkit-animation-delay: 0.4s;
-      -moz-animation-delay: 0.4s;
-      animation-delay: 0.4s; }
-    .topMenu ul li:nth-child(4) a {
-      -webkit-animation-delay: 0.6s;
-      -moz-animation-delay: 0.6s;
-      animation-delay: 0.6s; }
-    .topMenu ul a {
-      color: #fff;
-      display: block;
-      text-transform: uppercase;
-      font-size: 12px;
-      opacity: 0;
-      position: relative;
-      height: 60px;
-      outline: none; }
-      .topMenu ul a span {
-        display: block;
-        position: relative;
-        top: -40px;
-        left: 0;
-        height: 100%;
-        transition: all 0.5s ease 0.3s ease-out;
-        -webkit-transition: all 0.5s ease 0.3s ease-out;
-        -moz-transition: all 0.5s ease 0.3s ease-out;
-        -ms-transition: all 0.5s ease 0.3s ease-out;
-        -o-transition: all 0.5s ease 0.3s ease-out; }
-        .topMenu ul a span:hover {
-          background-color: rgba(255, 255, 255, 0.08); }
+    vertical-align: middle; }
+    .mainHead .titleWrapper h1 {
+      display: inline-block;
+      margin: 0; }
+    .mainHead .titleWrapper p {
+      text-transform: uppercase; }
 
-.secAbout .sectContent img {
-  height: 30px;
-  width: 30px; }
+.about img {
+  height: 300px;
+  width: 300px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,5 +1,4 @@
 @import "bourbon/bourbon"
-@import url("http://fonts.googleapis.com/css?family=Oswald:400,700")
 @import vars
 
 @mixin kerning($kerning)
@@ -12,115 +11,33 @@
   -ms-transition: $properties .3s ease-out
   -o-transition: $properties .3s ease-out
 
+*, body, html
+  margin: 0
+  padding: 0
+
+.mainHead
+  display: block
+
 .hidden
   display: none
 
-.menuButton
-  z-index: 99999
-  position: absolute
-  border: 1px solid red
-  .menuLink
-    position: absolute
-    z-index: 100
-    right: 0
-    top: 0
-    display: none
-    color: $menu
-    display: inline-block
-    font-size: 1.125rem
-    text-transform: uppercase
-    font-weight: 700
-    margin: 20px 0 0 -20px
-    text-align: center
-    &:before
-      content: ""
-      background: $menu
-      height: 4px
-      width: 40px
-      position: absolute
-      top: -10px
-      display: block
-      @include transition(all)
-    &:after
-      content: ""
-      background: $menu
-      height: 4px
-      width: 40px
-      position: absolute
-      top: -20px
-
-      display: block
-      @include transition(all)
-    &.close
-      &:before
-        transform: rotate(-135deg)
-        top: -15px
-        left: 15px
-        width: 25px
-        margin: 0 0 0 -13px
-        z-index: 100
-      &:after
-        transform: rotate(-45deg)
-        top: -15px
-        left: 15px
-        width: 25px
-        margin: 0 0 0 -13px
-        z-index: 100
-    a
-      font-family: 'Oswald'
-
-
-
-.topMenu
-  position: fixed
-  width: 100%
-  height: 100%
-  background-color: rgba(0,0,0,.85)
-  z-index: 50
-  right: 0
-  top: 0
-  display: none
-  span
+.mainHead
+  position: relative
+  min-height: 480px
+  .titleWrapper
     display: block
-  ul,
-  li
-    list-style-type: none
-    padding: 0
-    margin: 0
-  ul
-    margin-top: 180px
+    padding: 150px
+    top: 0
+    left: 0
     text-align: center
-    +animation-duration(.01s)
-    li
-      &:nth-child(1) a
-        +animation-delay(0)
-      &:nth-child(2) a
-        +animation-delay(.2s)
-      &:nth-child(3) a
-        +animation-delay(.4s)
-      &:nth-child(4) a
-        +animation-delay(.6s)
-    a
-      color: #fff
-      display: block
+    vertical-align: middle
+    h1
+      display: inline-block
+      margin: 0
+    p
       text-transform: uppercase
-      font-size: 12px
-      opacity: 0
-      position: relative
-      height: 60px
-      outline: none
-      span
-        display: block
-        position: relative
-        top: -40px
-        left: 0
-        height: 100%
-        +transition(all 0.5s ease)
-        &:hover
-          background-color: rgba(255,255,255,.08)
 
-.secAbout
-  .sectContent
-    img
-      height: 30px
-      width: 30px
+.about
+  img
+    height: 300px
+    width: 300px
