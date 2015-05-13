@@ -23,9 +23,22 @@
       margin: 0; }
     .mainHead .titleWrapper p {
       text-transform: uppercase; }
+    .mainHead .titleWrapper .sendRequest {
+      margin-top: 20px; }
 
-.about img {
-  height: 300px;
-  width: 300px; }
+.about .abWrapper {
+  position: relative;
+  width: 100%; }
+  .about .abWrapper img {
+    width: 150px;
+    height: 150px; }
+    .about .abWrapper img.horizontal {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 0); }
+  .about .abWrapper p {
+    display: inline-block;
+    text-align: justify;
+    margin-top: 170px; }
 
 /*# sourceMappingURL=main.css.map */

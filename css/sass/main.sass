@@ -11,6 +11,19 @@
   -ms-transition: $properties .3s ease-out
   -o-transition: $properties .3s ease-out
 
+@mixin centerer($horizontal: true, $vertical: true)
+  position: absolute
+  @if ($horizontal and $vertical)
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+  @else if ($horizontal)
+    left: 50%
+    transform: translate(-50%, 0)
+  @else if ($vertical)
+    top: 50%
+    transform: translate(0, -50)
+
 *, body, html
   margin: 0
   padding: 0
@@ -36,8 +49,21 @@
       margin: 0
     p
       text-transform: uppercase
+    .sendRequest
+      margin-top: 20px
+
+$imgH: 150px
 
 .about
-  img
-    height: 300px
-    width: 300px
+  .abWrapper
+    position: relative
+    width: 100%
+    img
+      width: $imgH
+      height: $imgH
+      &.horizontal
+        @include centerer(true, false)
+    p
+      display: inline-block
+      text-align: justify
+      margin-top: $imgH + 20px
