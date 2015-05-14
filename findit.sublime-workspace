@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"i",
+				"imgH"
+			],
+			[
+				"m",
+				"mt	margin-top"
+			],
+			[
 				"v",
 				"va	vertical-align"
 			],
@@ -46,10 +58,6 @@
 			[
 				"fu",
 				"function"
-			],
-			[
-				"m",
-				"m	margin"
 			],
 			[
 				"borde",
@@ -151,7 +159,23 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4605,
+				"buffer_size": 5143,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/common.js",
+			"settings":
+			{
+				"buffer_size": 326,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/media/g-dogg/DATA/Web_Projects/wordpress-landing-page-lesson-master/_clean_html/js/common.js",
+			"settings":
+			{
+				"buffer_size": 1898,
 				"line_ending": "Unix"
 			}
 		},
@@ -167,7 +191,7 @@
 			"file": "css/sass/main.sass",
 			"settings":
 			{
-				"buffer_size": 757,
+				"buffer_size": 1332,
 				"line_ending": "Unix"
 			}
 		},
@@ -367,7 +391,7 @@
 	],
 	"find":
 	{
-		"height": 37.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -425,15 +449,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4605,
+						"buffer_size": 5143,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1295,
-								1295
+								1506,
+								1506
 							]
 						],
 						"settings":
@@ -444,14 +468,74 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 459.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "js/common.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 326,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								158,
+								158
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Twilight.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/media/g-dogg/DATA/Web_Projects/wordpress-landing-page-lesson-master/_clean_html/js/common.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1898,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								757,
+								757
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Twilight.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "/media/g-dogg/DATA/Web_Projects/fndIT_General/findit.github.io/index.html",
 					"semi_transient": false,
 					"settings":
@@ -478,7 +562,7 @@
 						"translation.y": 102.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -488,20 +572,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 4,
 					"file": "css/sass/main.sass",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 757,
+						"buffer_size": 1332,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								708,
-								708
+								702,
+								702
 							]
 						],
 						"settings":
@@ -512,14 +596,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 255.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 5,
 					"file": "/media/g-dogg/DATA/Web_Projects/wordpress-landing-page-lesson-master/_clean_html/css/sass/main.sass",
 					"semi_transient": false,
 					"settings":
@@ -542,14 +626,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3468.0,
+						"translation.y": 510.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 6,
 					"file": "css/sass/vars.sass",
 					"semi_transient": false,
 					"settings":
@@ -574,7 +658,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -664,7 +748,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
