@@ -34,11 +34,34 @@
 .hidden
   display: none
 
+.loader
+  background: none repeat scroll 0 0 $menu
+  bottom: 0
+  height: 100%
+  left: 0
+  position: fixed
+  right: 0
+  top: 0
+  width: 100%
+  z-index: 9999
+  .loader-inner
+    background-color: $menu
+    height: 60px
+    width: 60px
+    margin-top: -30px
+    margin-left: -30px
+    left: 50%
+    top: 50%
+    position: absolute
+
 .titleWrapper
   display: block
   top: 0
   left: 0
   text-align: center
+  h3
+    margin: 45px 0 60px
+
 
 .mainHead
   position: relative
@@ -46,38 +69,39 @@
   .titleWrapper
     padding: 150px
     vertical-align: middle
+    +transition(all 1s ease)
     h1
       display: inline-block
       margin: 0
-      +animation-delay(0.1s)
+      +animation-delay(0.5s)
     p
       text-transform: uppercase
-      &:nth-child(2)
-        +animation-delay(0)
-      &:nth-child(3)
-        +animation-delay(0.5s)
       &:nth-child(1)
-        +animation-delay(0.7s)
+        +animation-delay(0.8s)
+      &:nth-child(2)
+        +animation-delay(1s)
+      &:nth-child(3)
+        +animation-delay(1.7s)
     .sendRequest
       margin-top: 20px
-      +animation-delay(0.5s)
+      +animation-delay(2.5s)
 
 $imgH: 150px
 
 .about
-  .abWrapper
+  position: relative
+  width: 100%
+  p
+    display: inline-block
+    text-align: justify
+    margin-top: $imgH + 20px
+    padding: 5px 20px 10px
+  .abImg1
+    background: url("../img/aboutImg1.jpg") no-repeat 100% 0
+    display: block
     position: relative
-    width: 100%
-    img
-      width: $imgH
-      height: $imgH
-      &.horizontal
-        @include centerer(true, false)
-    p
-      display: inline-block
-      text-align: justify
-      margin-top: $imgH + 20px
-      padding: 5px 20px 10px
+    width: 150px
+    height: 150px
 
 .contacts
   .left

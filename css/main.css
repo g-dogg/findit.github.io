@@ -8,59 +8,85 @@
 .hidden {
   display: none; }
 
+.loader {
+  background: none repeat scroll 0 0 #265D6B;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999; }
+  .loader .loader-inner {
+    background-color: #265D6B;
+    height: 60px;
+    width: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+    left: 50%;
+    top: 50%;
+    position: absolute; }
+
 .titleWrapper {
   display: block;
   top: 0;
   left: 0;
   text-align: center; }
+  .titleWrapper h3 {
+    margin: 45px 0 60px; }
 
 .mainHead {
   position: relative;
   min-height: 480px; }
   .mainHead .titleWrapper {
     padding: 150px;
-    vertical-align: middle; }
+    vertical-align: middle;
+    transition: all 1s ease 0.3s ease-out;
+    -webkit-transition: all 1s ease 0.3s ease-out;
+    -moz-transition: all 1s ease 0.3s ease-out;
+    -ms-transition: all 1s ease 0.3s ease-out;
+    -o-transition: all 1s ease 0.3s ease-out; }
     .mainHead .titleWrapper h1 {
       display: inline-block;
       margin: 0;
-      -webkit-animation-delay: 0.1s;
-      -moz-animation-delay: 0.1s;
-      animation-delay: 0.1s; }
-    .mainHead .titleWrapper p {
-      text-transform: uppercase; }
-      .mainHead .titleWrapper p:nth-child(2) {
-        -webkit-animation-delay: 0;
-        -moz-animation-delay: 0;
-        animation-delay: 0; }
-      .mainHead .titleWrapper p:nth-child(3) {
-        -webkit-animation-delay: 0.5s;
-        -moz-animation-delay: 0.5s;
-        animation-delay: 0.5s; }
-      .mainHead .titleWrapper p:nth-child(1) {
-        -webkit-animation-delay: 0.7s;
-        -moz-animation-delay: 0.7s;
-        animation-delay: 0.7s; }
-    .mainHead .titleWrapper .sendRequest {
-      margin-top: 20px;
       -webkit-animation-delay: 0.5s;
       -moz-animation-delay: 0.5s;
       animation-delay: 0.5s; }
+    .mainHead .titleWrapper p {
+      text-transform: uppercase; }
+      .mainHead .titleWrapper p:nth-child(1) {
+        -webkit-animation-delay: 0.8s;
+        -moz-animation-delay: 0.8s;
+        animation-delay: 0.8s; }
+      .mainHead .titleWrapper p:nth-child(2) {
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        animation-delay: 1s; }
+      .mainHead .titleWrapper p:nth-child(3) {
+        -webkit-animation-delay: 1.7s;
+        -moz-animation-delay: 1.7s;
+        animation-delay: 1.7s; }
+    .mainHead .titleWrapper .sendRequest {
+      margin-top: 20px;
+      -webkit-animation-delay: 2.5s;
+      -moz-animation-delay: 2.5s;
+      animation-delay: 2.5s; }
 
-.about .abWrapper {
+.about {
   position: relative;
   width: 100%; }
-  .about .abWrapper img {
-    width: 150px;
-    height: 150px; }
-    .about .abWrapper img.horizontal {
-      position: absolute;
-      left: 50%;
-      transform: translate(-50%, 0); }
-  .about .abWrapper p {
+  .about p {
     display: inline-block;
     text-align: justify;
     margin-top: 170px;
     padding: 5px 20px 10px; }
+  .about .abImg1 {
+    background: url("../img/aboutImg1.jpg") no-repeat 100% 0;
+    display: block;
+    position: relative;
+    width: 150px;
+    height: 150px; }
 
 .contacts .left {
   border-right: 1px solid #265D6B; }
