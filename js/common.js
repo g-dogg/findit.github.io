@@ -9,7 +9,9 @@ $(document).ready(function() {
 	$(window).resize(function() {
 		heightDetect();
 	});
+    
 
+    $(".titleWrapper img").animated("fadeIn", "fadeOut");
 	$(".titleWrapper h3").animated("fadeInDown", "fadeOutUp");
 	$(".about .abImg1").animated("flipInX", "flipOutX");
 
