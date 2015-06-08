@@ -11,9 +11,9 @@ $(document).ready(function() {
 	});
     
 
-    $(".titleWrapper img").animated("fadeIn", "fadeOut");
+    $(".titleWrapper .logo").animated("fadeInDown", "bounceOut");
 	$(".titleWrapper h3").animated("fadeInDown", "fadeOutUp");
-	$(".about .abImg1").animated("flipInX", "flipOutX");
+	$(".about .abImg1").animated("tada", "flipOutX");
 
 
 });
