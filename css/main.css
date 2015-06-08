@@ -9,7 +9,7 @@
   display: none; }
 
 .loader {
-  background: none repeat scroll 0 0 #265D6B;
+  background: none repeat scroll 0 0 #4e342e;
   bottom: 0;
   height: 100%;
   left: 0;
@@ -19,7 +19,7 @@
   width: 100%;
   z-index: 9999; }
   .loader .loader-inner {
-    background-color: #265D6B;
+    background-color: #4e342e;
     height: 60px;
     width: 60px;
     margin-top: -30px;
@@ -64,7 +64,7 @@
       .mainHead .titleWrapper .mainDescr p {
         color: #4e342e;
         text-transform: uppercase;
-        text-shadow: 0 1px 1px black, 0 0 1px red; }
+        text-shadow: 0 0 1px black, 0 0 1px red; }
         .mainHead .titleWrapper .mainDescr p:nth-child(1) {
           -webkit-animation-delay: 1.7s;
           -moz-animation-delay: 1.7s;
