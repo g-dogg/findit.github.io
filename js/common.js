@@ -36,7 +36,11 @@ $(document).ready(function() {
 
     $(".titleWrapper .logo").animated("fadeInDown", "bounceOut");
 	$(".titleWrapper h3").animated("fadeInDown", "fadeOutUp");
-	$(".about .abImg1").animated("tada", "flipOutX");
+	$(".about .abImg1").animated("flipInX", "flipOutX");
+	$(".about .abImg2").animated("flipInX", "flipOutX");
+	$(".about .abImg3").animated("flipInX", "flipOutX");
+
+
 
 
 });

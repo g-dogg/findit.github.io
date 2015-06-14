@@ -128,7 +128,7 @@ button, button:focus, .sandwich, .sandwich.active
   position: fixed
   width: 100%
   height: 100%
-  background-color: rgba(0,0,0,.85)
+  background-color: rgba(0,0,0,.95)
   z-index: 50
   right: 0
   top: 0
@@ -155,10 +155,10 @@ button, button:focus, .sandwich, .sandwich.active
       &:nth-child(4) a
         +animation-delay(.3s)
     a
-      color: #fff
+      color: $mainTextp
       display: block
       text-transform: uppercase
-      font-size: 12px
+      font-size: 22px
       opacity: 0
       position: relative
       height: 60px
@@ -169,7 +169,7 @@ button, button:focus, .sandwich, .sandwich.active
         top: -60px
         left: 0
         height: 100%
-        +transition(all 1.8s ease)
+        +transition(all 0.7s)
         &:hover
           background-color: rgba(255,255,255,.08)
 
@@ -179,8 +179,7 @@ button, button:focus, .sandwich, .sandwich.active
   left: 0
   text-align: center
   h3
-    margin: 65px 0 60px
-
+    margin-top: 65px
 
 .mainHead
   position: relative
@@ -223,14 +222,19 @@ $imgH: 150px
   p
     display: inline-block
     text-align: justify
-    margin-top: $imgH + 20px
+    margin: 20px auto
     padding: 5px 20px 10px
-  .abImg1
-    background: url("../img/aboutImg1.jpg") no-repeat 100% 0
+  .abImg1, .abImg2, .abImg3
     display: block
     position: relative
     width: 150px
     height: 150px
+  .abImg1
+    background: url("../img/aboutImg1.jpg") no-repeat 100% 0
+  .abImg2
+    background: url("../img/aboutImg2.png") no-repeat 100% 0
+  .abImg3
+    background: url("../img/aboutImg3.jpg") no-repeat 100% 0
 
 .contacts
   .left

@@ -101,7 +101,7 @@ button, button:focus, .sandwich, .sandwich.active {
   position: fixed;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.95);
   z-index: 50;
   right: 0;
   top: 0;
@@ -138,10 +138,10 @@ button, button:focus, .sandwich, .sandwich.active {
         -moz-animation-delay: 0.3s;
         animation-delay: 0.3s; }
     .top_mnu ul a {
-      color: #fff;
+      color: #ff9e80;
       display: block;
       text-transform: uppercase;
-      font-size: 12px;
+      font-size: 22px;
       opacity: 0;
       position: relative;
       height: 60px;
@@ -152,11 +152,11 @@ button, button:focus, .sandwich, .sandwich.active {
         top: -60px;
         left: 0;
         height: 100%;
-        transition: all 1.8s ease 0.3s ease-out;
-        -webkit-transition: all 1.8s ease 0.3s ease-out;
-        -moz-transition: all 1.8s ease 0.3s ease-out;
-        -ms-transition: all 1.8s ease 0.3s ease-out;
-        -o-transition: all 1.8s ease 0.3s ease-out; }
+        transition: all 0.7s 0.3s ease-out;
+        -webkit-transition: all 0.7s 0.3s ease-out;
+        -moz-transition: all 0.7s 0.3s ease-out;
+        -ms-transition: all 0.7s 0.3s ease-out;
+        -o-transition: all 0.7s 0.3s ease-out; }
         .top_mnu ul a span:hover {
           background-color: rgba(255, 255, 255, 0.08); }
 
@@ -166,7 +166,7 @@ button, button:focus, .sandwich, .sandwich.active {
   left: 0;
   text-align: center; }
   .titleWrapper h3 {
-    margin: 65px 0 60px; }
+    margin-top: 65px; }
 
 .mainHead {
   position: relative;
@@ -194,7 +194,7 @@ button, button:focus, .sandwich, .sandwich.active {
     .mainHead .titleWrapper .mainDescr {
       display: block; }
       .mainHead .titleWrapper .mainDescr p {
-        color: #fbe9e7;
+        color: #ff9e80;
         text-transform: uppercase; }
         .mainHead .titleWrapper .mainDescr p:nth-child(1) {
           -webkit-animation-delay: 1.7s;
@@ -220,14 +220,19 @@ button, button:focus, .sandwich, .sandwich.active {
   .about p {
     display: inline-block;
     text-align: justify;
-    margin-top: 170px;
+    margin: 20px auto;
     padding: 5px 20px 10px; }
-  .about .abImg1 {
-    background: url("../img/aboutImg1.jpg") no-repeat 100% 0;
+  .about .abImg1, .about .abImg2, .about .abImg3 {
     display: block;
     position: relative;
     width: 150px;
     height: 150px; }
+  .about .abImg1 {
+    background: url("../img/aboutImg1.jpg") no-repeat 100% 0; }
+  .about .abImg2 {
+    background: url("../img/aboutImg2.png") no-repeat 100% 0; }
+  .about .abImg3 {
+    background: url("../img/aboutImg3.jpg") no-repeat 100% 0; }
 
 .contacts .left {
   border-right: 1px solid #265D6B; }
