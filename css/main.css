@@ -221,27 +221,79 @@ figure.effect-sarah:hover a::after {
       -moz-animation-delay: 2.5s;
       animation-delay: 2.5s; }
 
-.about {
+.about, .portfolio {
   position: relative;
   width: 100%; }
-  .about p {
-    display: inline-block;
-    text-align: justify;
-    margin: 20px auto;
-    padding: 5px 20px 10px; }
-  .about .abImg1, .about .abImg2, .about .abImg3 {
-    display: block;
-    position: relative;
-    width: 150px;
-    height: 150px; }
-  .about .abImg1 {
-    background: url("../img/aboutImg1.jpg") no-repeat 100% 0; }
-  .about .abImg2 {
-    background: url("../img/aboutImg2.png") no-repeat 100% 0; }
-  .about .abImg3 {
-    background: url("../img/aboutImg3.jpg") no-repeat 100% 0; }
+
+.about p {
+  display: inline-block;
+  text-align: justify;
+  margin: 20px auto;
+  padding: 5px 20px 10px; }
+.about .abImg1, .about .abImg2, .about .abImg3 {
+  display: block;
+  position: relative;
+  width: 150px;
+  height: 150px; }
+.about .abImg1 {
+  background: url("../img/aboutImg1.jpg") no-repeat 100% 0; }
+.about .abImg2 {
+  background: url("../img/aboutImg2.png") no-repeat 100% 0; }
+.about .abImg3 {
+  background: url("../img/aboutImg3.jpg") no-repeat 100% 0; }
 
 .contacts .left {
   border-right: 1px solid #265D6B; }
+
+.row .col.s3.portfolioItem {
+  padding: 0;
+  margin: 0; }
+
+.portfolioItem {
+  display: none; }
+  .portfolioItem img {
+    width: 100%; }
+
+figure.effect-milo {
+  background: #2e5d5a; }
+
+figure.effect-milo img {
+  max-width: none;
+  width: -webkit-calc(100% + 60px);
+  width: calc(100% + 60px);
+  opacity: 1;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-30px, 0, 0) scale(1.12);
+  transform: translate3d(-30px, 0, 0) scale(1.12);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+figure.effect-milo:hover img {
+  opacity: 0.5;
+  -webkit-transform: translate3d(0, 0, 0) scale(1);
+  transform: translate3d(0, 0, 0) scale(1); }
+
+figure.effect-milo h2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 1em 1.2em; }
+
+figure.effect-milo p {
+  padding: 0 10px 0 0;
+  width: 50%;
+  border-right: 1px solid #fff;
+  text-align: right;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-40px, 0, 0);
+  transform: translate3d(-40px, 0, 0); }
+
+figure.effect-milo:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
 
 /*# sourceMappingURL=main.css.map */

@@ -9,8 +9,9 @@ $(document).ready(function() {
 	$(window).resize(function() {
 		heightDetect();
 	});
-    
-	
+
+	$(".portfolioTables").mixItUp();
+
 	$(".toggle_mnu").click(function() {
 		$(".sandwich").toggleClass("active");
 	});
