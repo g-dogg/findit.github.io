@@ -148,6 +148,8 @@ button, button:focus, .sandwich, .sandwich.active {
       padding: 0.5em 0;
       height: 60px;
       outline: none; }
+      .top_mnu ul a:active {
+        color: #ff5722; }
       .top_mnu ul a::after {
         position: absolute;
         bottom: 0;
