@@ -10,7 +10,7 @@ $(document).ready(function() {
 		heightDetect();
 	});
 
-	$(".portfolioTables").mixItUp();
+	$("#portfolioTables").mixItUp();
 
 	$(".toggle_mnu").click(function() {
 		$(".sandwich").toggleClass("active");
