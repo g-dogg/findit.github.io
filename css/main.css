@@ -166,10 +166,6 @@ button, button:focus, .sandwich, .sandwich.active {
         -webkit-transform: translate3d(-100%, 0, 0);
         transform: translate3d(-100%, 0, 0); }
 
-figure.effect-sarah:hover a::after {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0); }
-
 .titleWrapper {
   display: block;
   top: 0;
@@ -249,29 +245,82 @@ figure.effect-sarah:hover a::after {
   border-right: 1px solid #265D6B; }
 
 .portfolio .row .col {
-  padding: 0 !important; }
-.portfolio .pfItem {
-  padding: 0; }
-  .portfolio .pfItem img {
-    width: 100%;
-    padding: 0;
-    margin: 0; }
-  .portfolio .pfItem .pfDescr {
+  padding: 0 !important;
+  margin: 0 !important; }
+
+.pfItem {
+  width: 419px;
+  height: 300px;
+  margin: 0;
+  border: none;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: nw-resize; }
+  .pfItem .mask {
+    width: 419px;
+    height: 300px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0; }
+  .pfItem img {
+    display: block;
+    position: relative; }
+  .pfItem h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
     position: relative;
-    background: rgba(0, 0, 0, 0.85);
-    width: 100%;
-    padding: 0;
-    text-align: justify;
-    opacity: 0;
-    left: 0;
-    top: 0; }
-    .portfolio .pfItem .pfDescr p {
-      color: #01579b;
-      padding: 5px; }
-    .portfolio .pfItem .pfDescr:hover {
-      opacity: 1;
-      transition: all 0.8s;
-      transition-delay: 0.3s; }
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0; }
+  .pfItem p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center; }
+  .pfItem a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000; }
+    .pfItem a.info:hover {
+      box-shadow: 0 0 5px #000; }
+
+.view-first img {
+  transition: all 0.2s linear; }
+.view-first:hover img {
+  transform: scale(1.1); }
+.view-first .mask, .view-first h2, .view-first p, .view-first a.info {
+  opacity: 0; }
+.view-first:hover h2, .view-first:hover p, .view-first:hover a.info {
+  opacity: 1;
+  transform: translateY(0px); }
+.view-first .mask {
+  background-color: rgba(219, 127, 8, 0.7);
+  transition: all 0.4s ease-in-out; }
+  .view-first .mask:hover {
+    opacity: 1; }
+.view-first h2 {
+  transform: translateY(-100px);
+  transition: all 0.2s ease-in-out; }
+.view-first p {
+  transform: translateY(100px);
+  transition: all 0.2s linear; }
+  .view-first p:hover {
+    transition-delay: 0.1s; }
+.view-first a.info {
+  transition: all 0.2s ease-in-out; }
+  .view-first a.info:hover {
+    transition-delay: 0.2s; }
 
 .watchword {
   min-height: 480px; }

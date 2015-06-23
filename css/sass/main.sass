@@ -184,10 +184,6 @@ button, button:focus, .sandwich, .sandwich.active
         -webkit-transform: translate3d(-100%,0,0)
         transform: translate3d(-100%,0,0)
 
-figure.effect-sarah:hover a::after
-  -webkit-transform: translate3d(0,0,0)
-  transform: translate3d(0,0,0)
-
 .titleWrapper
   display: block
   top: 0
@@ -261,28 +257,82 @@ $imgH: 150px
 .portfolio
   .row .col
     padding: 0 !important
-  .pfItem
-    padding: 0
-    img
-      width: 100%
-      padding: 0
-      margin: 0
-    .pfDescr
-      position: relative
-      background: rgba(0,0,0, .85)
-      width: 100%
-      padding: 0
-      text-align: justify
-      opacity: 0
-      left: 0
-      top: 0
-      p
-        color: $mainTextp
-        padding: 5px
-      &:hover
-        opacity: 1
-        transition: all 0.8s
-        transition-delay: 0.3s
+    margin: 0 !important
+
+.pfItem
+  width: 419px
+  height: 300px
+  margin: 0
+  border: none
+  overflow: hidden
+  position: relative
+  text-align: center
+  cursor: nw-resize
+  .mask
+    width: 419px
+    height: 300px
+    position: absolute
+    overflow: hidden
+    top: 0
+    left: 0
+  img 
+    display: block
+    position: relative
+  h2 
+    text-transform: uppercase
+    color: #fff
+    text-align: center
+    position: relative
+    font-size: 17px
+    padding: 10px
+    background: rgba(0, 0, 0, 0.8)
+    margin: 20px 0 0 0
+  p 
+    font-family: Georgia, serif
+    font-style: italic
+    font-size: 12px
+    position: relative
+    color: #fff
+    padding: 10px 20px 20px
+    text-align: center
+  a.info 
+    display: inline-block
+    text-decoration: none
+    padding: 7px 14px
+    background: #000
+    color: #fff
+    text-transform: uppercase
+    box-shadow: 0 0 1px #000
+    &:hover 
+      box-shadow: 0 0 5px #000
+
+.view-first 
+  img 
+    transition: all 0.2s linear
+  &:hover img
+    transform: scale(1.1)
+  .mask, h2, p, a.info
+    opacity: 0
+  &:hover h2, &:hover p, &:hover a.info
+    opacity: 1
+    transform: translateY(0px)
+  .mask
+    background-color: rgba(219,127,8, 0.7)
+    transition: all 0.4s ease-in-out
+    &:hover
+      opacity: 1
+  h2 
+    transform: translateY(-100px)
+    transition: all 0.2s ease-in-out
+  p 
+    transform: translateY(100px)
+    transition: all 0.2s linear
+    &:hover
+      transition-delay: 0.1s
+  a.info
+    transition: all 0.2s ease-in-out
+    &:hover
+      transition-delay: 0.2s
 
 .watchword
   min-height: 480px
