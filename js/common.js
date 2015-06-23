@@ -40,6 +40,7 @@ $(document).ready(function() {
 	$(".about .abImg1").animated("flipInX", "flipOutX");
 	$(".about .abImg2").animated("flipInX", "flipOutX");
 	$(".about .abImg3").animated("flipInX", "flipOutX");
+	$(".watchword blockquote").animated("fadeInRight", "fadeOutRight");
 
 
 

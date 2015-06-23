@@ -141,7 +141,7 @@ button, button:focus, .sandwich, .sandwich.active {
         -moz-animation-delay: 0.3s;
         animation-delay: 0.3s; }
     .top_mnu ul a {
-      color: #37474f;
+      color: #01579b;
       display: inline-block;
       text-transform: uppercase;
       font-size: 22px;
@@ -152,14 +152,14 @@ button, button:focus, .sandwich, .sandwich.active {
       height: 60px;
       outline: none; }
       .top_mnu ul a:active {
-        color: #ff5722; }
+        color: #3e2723; }
       .top_mnu ul a::after {
         position: absolute;
         bottom: 0;
         left: 0;
         width: 100%;
         height: 3px;
-        background: #37474f;
+        background: #01579b;
         content: "";
         -webkit-transition: -webkit-transform 0.35s;
         transition: transform 0.35s;
@@ -200,11 +200,11 @@ figure.effect-sarah:hover a::after {
       -moz-animation-delay: 1.1s;
       animation-delay: 1.1s; }
       .mainHead .titleWrapper .logo svg path {
-        fill: #ff5722; }
+        fill: #3e2723; }
     .mainHead .titleWrapper .mainDescr {
       display: block; }
       .mainHead .titleWrapper .mainDescr p {
-        color: #37474f;
+        color: #01579b;
         text-transform: uppercase; }
         .mainHead .titleWrapper .mainDescr p:nth-child(1) {
           -webkit-animation-delay: 1.7s;
@@ -257,7 +257,7 @@ figure.effect-sarah:hover a::after {
     padding: 0;
     margin: 0; }
   .portfolio .pfItem .pfDescr {
-    position: absolute;
+    position: relative;
     background: rgba(0, 0, 0, 0.85);
     width: 100%;
     padding: 0;
@@ -266,7 +266,7 @@ figure.effect-sarah:hover a::after {
     left: 0;
     top: 0; }
     .portfolio .pfItem .pfDescr p {
-      color: #37474f;
+      color: #01579b;
       padding: 5px; }
     .portfolio .pfItem .pfDescr:hover {
       opacity: 1;
@@ -275,5 +275,8 @@ figure.effect-sarah:hover a::after {
 
 .watchword {
   min-height: 480px; }
+  .watchword blockquote {
+    display: block;
+    margin: 80px 0 10px; }
 
 /*# sourceMappingURL=main.css.map */
