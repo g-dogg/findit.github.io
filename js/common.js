@@ -10,6 +10,7 @@ $(document).ready(function() {
 		heightDetect();
 	});
 
+//нихуища не получается
 	$(".cites").each(function() {
 		setInterval(function() {
 			$(this).find("blockquote").css("opacity",0);
