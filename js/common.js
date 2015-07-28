@@ -19,17 +19,6 @@ $(document).ready(function() {
 		}, 4000);
 		
 	});
-	/*setInterval(function(){
-  		$('blockquote').animated("fadeInRight");
-  		setTimeout(function(){$('blockquote').animated("fadeOutRight")},4000);
-	},6000);
-	var $cite = $('.cite').length;
-	for (var i = 0; i < $cite; i++) {
-
-	};
-	setInterval(function(){
-		$('blockquote');
-	}, 6000);*/
 
 	$("#pfGrid").mixItUp();
 
