@@ -10,11 +10,20 @@ $(document).ready(function() {
 		heightDetect();
 	});
 
-	setInterval(function(){
+	$(".cites").each(function() {
+		setInterval(function() {
+			$(this).find("blockquote").css("opacity",0);
+			setTimeout(function() {
+				$(this).css("opacity",1)
+			}, 2000);	
+		}, 4000);
+		
+	});
+	/*setInterval(function(){
   		$('blockquote').animated("fadeInRight");
   		setTimeout(function(){$('blockquote').animated("fadeOutRight")},4000);
 	},6000);
-	/*var $cite = $('.cite').length;
+	var $cite = $('.cite').length;
 	for (var i = 0; i < $cite; i++) {
 
 	};
@@ -51,7 +60,7 @@ $(document).ready(function() {
 	$(".about .abImg1").animated("flipInX", "flipOutX");
 	$(".about .abImg2").animated("flipInX", "flipOutX");
 	$(".about .abImg3").animated("flipInX", "flipOutX");
-	$(".watchword blockquote .blink_on").animated("fadeInRight", "fadeOutRight");
+	/*$(".watchword blockquote").animated("fadeInRight", "fadeOutRight");*/
 
 
 
