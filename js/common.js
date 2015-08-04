@@ -10,19 +10,6 @@ $(document).ready(function() {
 		heightDetect();
 	});
 
-//нихуища не получается
-/*
-	$(".cites").each(function() {
-		setInterval(function() {
-			$(this).find("blockquote").css("opacity",0);
-			setTimeout(function() {
-				$(this).css("opacity",1)
-			}, 2000);
-		}, 4000);
-
-	});
-*/
-
 	$("#pfGrid").mixItUp();
 
 	$(".toggle_mnu").click(function() {
@@ -53,9 +40,6 @@ $(document).ready(function() {
 	$(".about .abImg2").animated("flipInX", "flipOutX");
 	$(".about .abImg3").animated("flipInX", "flipOutX");
 	$(".watchword blockquote").animated("bounceIn", "bounceOut");
-
-
-
 
 });
 
