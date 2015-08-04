@@ -30,6 +30,7 @@
 
 html
   background: $htmlColor
+  font-family: 'Lora', serif
 
 .mainHead
   display: block
@@ -213,7 +214,8 @@ figure.effect-sarah:hover a::after
   left: 0
   text-align: center
   h3
-    margin: 85px 0 85px
+    font-family: 'Lora', serif
+    margin: 85px 0 30px
 
 .mainHead
   position: relative
@@ -237,8 +239,9 @@ figure.effect-sarah:hover a::after
     .mainDescr
       display: block
       p
-        color: $mainTextp
+        color: $mainSlog
         text-transform: uppercase
+        font-size: 1.2rem
         &:nth-child(1)
           +animation-delay(1.7s)
         &:nth-child(2)
@@ -264,14 +267,10 @@ $imgH: 150px
   .abImg1, .abImg2, .abImg3
     display: block
     position: relative
-    width: 150px
-    height: 150px
-  .abImg1
-    background: url("../img/aboutImg1.jpg") no-repeat 100% 0
-  .abImg2
-    background: url("../img/aboutImg2.png") no-repeat 100% 0
-  .abImg3
-    background: url("../img/aboutImg3.jpg") no-repeat 100% 0
+    width: 357px
+    height: 357px
+    background: #b3e5fc
+    border-radius: 15px
 
 .contacts
   .left
@@ -366,7 +365,8 @@ $imgH: 150px
 
 .watchword
   min-height: 480px
+  height: 680px
   blockquote
     display: block
-    margin: 80px 0 10px
-
+    margin: 180px 0 10px
+    +animation-delay(1.5s)

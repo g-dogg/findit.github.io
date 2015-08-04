@@ -3,7 +3,8 @@
   padding: 0; }
 
 html {
-  background: #90a4ae; }
+  background: #efebe9;
+  font-family: "Lora", serif; }
 
 .mainHead {
   display: block; }
@@ -141,7 +142,7 @@ button, button:focus, .sandwich, .sandwich.active {
         -moz-animation-delay: 0.3s;
         animation-delay: 0.3s; }
     .top_mnu ul a {
-      color: #01579b;
+      color: #ff5252;
       display: inline-block;
       text-transform: uppercase;
       font-size: 22px;
@@ -152,14 +153,14 @@ button, button:focus, .sandwich, .sandwich.active {
       height: 60px;
       outline: none; }
       .top_mnu ul a:active {
-        color: #3e2723; }
+        color: #ffccbc; }
       .top_mnu ul a::after {
         position: absolute;
         bottom: 0;
         left: 0;
         width: 100%;
         height: 3px;
-        background: #01579b;
+        background: #ff5252;
         content: "";
         -webkit-transition: -webkit-transform 0.35s;
         transition: transform 0.35s;
@@ -177,7 +178,7 @@ figure.effect-sarah a::after {
   left: 0;
   width: 100%;
   height: 3px;
-  background: #01579b;
+  background: #ff5252;
   content: "";
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
@@ -194,7 +195,8 @@ figure.effect-sarah:hover a::after {
   left: 0;
   text-align: center; }
   .titleWrapper h3 {
-    margin: 85px 0 85px; }
+    font-family: "Lora", serif;
+    margin: 85px 0 30px; }
 
 .mainHead {
   position: relative;
@@ -218,12 +220,13 @@ figure.effect-sarah:hover a::after {
       -moz-animation-delay: 1.1s;
       animation-delay: 1.1s; }
       .mainHead .titleWrapper .logo svg path {
-        fill: #3e2723; }
+        fill: #ffccbc; }
     .mainHead .titleWrapper .mainDescr {
       display: block; }
       .mainHead .titleWrapper .mainDescr p {
-        color: #01579b;
-        text-transform: uppercase; }
+        color: #fbe9e7;
+        text-transform: uppercase;
+        font-size: 1.2rem; }
         .mainHead .titleWrapper .mainDescr p:nth-child(1) {
           -webkit-animation-delay: 1.7s;
           -moz-animation-delay: 1.7s;
@@ -254,14 +257,10 @@ figure.effect-sarah:hover a::after {
 .about .abImg1, .about .abImg2, .about .abImg3 {
   display: block;
   position: relative;
-  width: 150px;
-  height: 150px; }
-.about .abImg1 {
-  background: url("../img/aboutImg1.jpg") no-repeat 100% 0; }
-.about .abImg2 {
-  background: url("../img/aboutImg2.png") no-repeat 100% 0; }
-.about .abImg3 {
-  background: url("../img/aboutImg3.jpg") no-repeat 100% 0; }
+  width: 357px;
+  height: 357px;
+  background: #b3e5fc;
+  border-radius: 15px; }
 
 .contacts .left {
   border-right: 1px solid #265D6B; }
@@ -352,9 +351,13 @@ figure.effect-sarah:hover a::after {
     transition-delay: 0.2s; }
 
 .watchword {
-  min-height: 480px; }
+  min-height: 480px;
+  height: 680px; }
   .watchword blockquote {
     display: block;
-    margin: 80px 0 10px; }
+    margin: 180px 0 10px;
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+    animation-delay: 1.5s; }
 
 /*# sourceMappingURL=main.css.map */

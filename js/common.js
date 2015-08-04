@@ -11,15 +11,17 @@ $(document).ready(function() {
 	});
 
 //нихуища не получается
+/*
 	$(".cites").each(function() {
 		setInterval(function() {
 			$(this).find("blockquote").css("opacity",0);
 			setTimeout(function() {
 				$(this).css("opacity",1)
-			}, 2000);	
+			}, 2000);
 		}, 4000);
-		
+
 	});
+*/
 
 	$("#pfGrid").mixItUp();
 
@@ -50,7 +52,7 @@ $(document).ready(function() {
 	$(".about .abImg1").animated("flipInX", "flipOutX");
 	$(".about .abImg2").animated("flipInX", "flipOutX");
 	$(".about .abImg3").animated("flipInX", "flipOutX");
-	/*$(".watchword blockquote").animated("fadeInRight", "fadeOutRight");*/
+	$(".watchword blockquote").animated("bounceIn", "bounceOut");
 
 
 
