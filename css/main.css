@@ -4,7 +4,7 @@
 
 html {
   background: #efebe9;
-  font-family: "Lora", serif; }
+  font-family: "Forum", cursive; }
 
 .mainHead {
   display: block; }
@@ -193,11 +193,11 @@ figure.effect-sarah:hover a::after {
   display: block;
   top: 0;
   left: 0;
-  padding: 0 0 0;
+  padding: 10px 0 10px;
   text-align: center; }
   .titleWrapper h3 {
-    font-family: "Lora", serif;
-    margin: 85px 0 30px; }
+    font-family: "Forum", cursive;
+    margin: 0; }
 
 .mainHead {
   position: relative;
@@ -266,16 +266,18 @@ figure.effect-sarah:hover a::after {
 .contacts .left {
   border-right: 1px solid #265D6B; }
 
-.portfolio .container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 0;
-  padding-right: 0; }
-  .portfolio .container .row {
+.portfolio {
+  margin-bottom: 50px; }
+  .portfolio .container {
     width: 1200px;
-    margin: 0 0 0; }
-    .portfolio .container .row .col.s4 {
-      padding: 0 0 0; }
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0; }
+    .portfolio .container .row {
+      width: 1200px;
+      margin: 0 0 0; }
+      .portfolio .container .row .col.s4 {
+        padding: 0 0 0; }
 
 .pfItem {
   width: 100%;
@@ -351,18 +353,26 @@ figure.effect-sarah:hover a::after {
   .view-first a.info:hover {
     transition-delay: 0.2s; }
 
-.watchword {
+.watchword, .contacts {
   min-height: 480px;
   height: 680px; }
-  .watchword blockquote {
-    opacity: 0;
-    position: absolute;
+  .watchword .cites, .contacts .cites {
     display: block;
-    margin: 180px 0 10px;
-    -webkit-animation-delay: 1.5s;
-    -moz-animation-delay: 1.5s;
-    animation-delay: 1.5s; }
-    .watchword blockquote:first-of-type {
-      opacity: 1; }
+    width: 100%;
+    position: relative; }
+    .watchword .cites blockquote, .contacts .cites blockquote {
+      opacity: 0;
+      position: absolute;
+      display: block;
+      margin: 180px 0 10px;
+      -webkit-animation-delay: 1.5s;
+      -moz-animation-delay: 1.5s;
+      animation-delay: 1.5s; }
+      .watchword .cites blockquote:first-of-type, .contacts .cites blockquote:first-of-type {
+        opacity: 1; }
+
+footer {
+  height: 150px;
+  min-height: 150px; }
 
 /*# sourceMappingURL=main.css.map */
