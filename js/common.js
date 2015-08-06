@@ -34,13 +34,12 @@ $(document).ready(function() {
 		};
 	});
 
-/*
-
+//Вращаем цитатки в цикле
 	 var j = 0;
-	 var delay = 2000; //millisecond delay between cycles
+	 var delay = 4000; //millisecond delay between cycles
 	 function cycleThru(){
-	         var jmax = $("ul#cyclelist li").length -1;
-	         $("ul#cyclelist li:eq(" + j + ")")
+	         var jmax = $(".cites blockquote").length -1;
+	         $(".cites blockquote:eq(" + j + ")")
 	                 .animate({"opacity" : "1"} ,400)
 	                 .animate({"opacity" : "1"}, delay)
 	                 .animate({"opacity" : "0"}, 400, function(){
@@ -51,15 +50,12 @@ $(document).ready(function() {
 
 	 cycleThru();
 
-
-*/
-
     $(".titleWrapper .logo").animated("fadeInDown", "bounceOut");
 	$(".titleWrapper h3").animated("fadeInDown", "fadeOutUp");
 	$(".about .abImg1").animated("flipInX", "flipOutX");
 	$(".about .abImg2").animated("flipInX", "flipOutX");
 	$(".about .abImg3").animated("flipInX", "flipOutX");
-	$(".watchword blockquote").animated("bounceIn", "bounceOut");
+	//$(".watchword blockquote").animated("bounceIn", "bounceOut");
 
 });
 

@@ -355,10 +355,13 @@ figure.effect-sarah:hover a::after {
   min-height: 480px;
   height: 680px; }
   .watchword blockquote {
+    position: absolute;
     display: block;
     margin: 180px 0 10px;
     -webkit-animation-delay: 1.5s;
     -moz-animation-delay: 1.5s;
     animation-delay: 1.5s; }
+    .watchword blockquote:nth-child(2) {
+      opacity: 0; }
 
 /*# sourceMappingURL=main.css.map */
