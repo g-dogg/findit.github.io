@@ -225,9 +225,10 @@ figure.effect-sarah:hover a::after {
     .mainHead .titleWrapper .mainDescr {
       display: block; }
       .mainHead .titleWrapper .mainDescr p {
-        color: #fbe9e7;
-        text-transform: uppercase;
-        font-size: 1.2rem; }
+        font-family: "Philosopher", sans-serif;
+        color: #ffebee;
+        font-size: 1.6rem;
+        text-shadow: 0 2px 0 black; }
         .mainHead .titleWrapper .mainDescr p:nth-child(1) {
           -webkit-animation-delay: 1.7s;
           -moz-animation-delay: 1.7s;
@@ -374,5 +375,16 @@ figure.effect-sarah:hover a::after {
 footer {
   height: 150px;
   min-height: 150px; }
+  footer p {
+    margin: 0;
+    padding: 0; }
+  footer .socButtons {
+    height: 150px;
+    display: block;
+    position: relative; }
+    footer .socButtons a {
+      color: #ff8a65; }
+      footer .socButtons a:hover {
+        color: #265D6B; }
 
 /*# sourceMappingURL=main.css.map */

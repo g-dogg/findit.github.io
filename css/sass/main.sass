@@ -239,9 +239,10 @@ figure.effect-sarah:hover a::after
     .mainDescr
       display: block
       p
+        font-family: 'Philosopher', sans-serif
         color: $mainSlog
-        text-transform: uppercase
-        font-size: 1.2rem
+        font-size: 1.6rem
+        text-shadow: 0 2px 0 black
         &:nth-child(1)
           +animation-delay(1.7s)
         &:nth-child(2)
@@ -380,8 +381,17 @@ $imgH: 150px
       &:first-of-type
         opacity: 1
 
-
-
 footer
   height: 150px
   min-height: 150px
+  p
+    margin: 0
+    padding: 0
+  .socButtons
+    height: 150px
+    display: block
+    position: relative
+    a
+      color: $sandwich
+      &:hover
+        color: $menu
