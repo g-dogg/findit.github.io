@@ -382,8 +382,9 @@ $imgH: 150px
         opacity: 1
 
 footer
-  height: 150px
-  min-height: 150px
+  padding-top: 50px
+  .row
+    margin-bottom: 0
   p
     margin: 0
     padding: 0
@@ -392,6 +393,23 @@ footer
     display: block
     position: relative
     a
+      font-size: 16px
+      padding: 25px 12px 8px
       color: $sandwich
       &:hover
         color: $menu
+
+.footMenu
+  width: 100%
+  a
+    display: block
+    position: relative
+    float: left
+    padding: 0
+    margin: 0
+    font-size: 1em
+    text-align: center
+    width: 25%
+    &:hover
+      text-decoration: underline
+      color: $mainTextp
