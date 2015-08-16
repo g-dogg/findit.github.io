@@ -3,8 +3,7 @@
   padding: 0; }
 
 html {
-  background: #efebe9;
-  font-family: "Forum", cursive; }
+  background: #efebe9; }
 
 .mainHead {
   display: block; }
@@ -196,7 +195,7 @@ figure.effect-sarah:hover a::after {
   padding: 10px 0 10px;
   text-align: center; }
   .titleWrapper h3 {
-    font-family: "Forum", cursive;
+    font-family: "Ikra";
     margin: 0; }
 
 .mainHead {
@@ -225,7 +224,7 @@ figure.effect-sarah:hover a::after {
     .mainHead .titleWrapper .mainDescr {
       display: block; }
       .mainHead .titleWrapper .mainDescr p {
-        font-family: "Philosopher", sans-serif;
+        font-family: "Ikra";
         color: #ffebee;
         font-size: 1.6rem;
         text-shadow: 0 2px 0 black; }
@@ -379,30 +378,36 @@ footer {
   footer p {
     margin: 0;
     padding: 0; }
+  footer .copyright {
+    text-align: right;
+    color: #ffccbc; }
   footer .socButtons {
-    height: 150px;
+    height: 80px;
     display: block;
     position: relative; }
     footer .socButtons a {
       font-size: 16px;
-      padding: 25px 12px 8px;
-      color: #ff8a65; }
+      padding: 10px 12px 8px;
+      color: #ffccbc; }
       footer .socButtons a:hover {
         color: #265D6B; }
-
-.footMenu {
-  width: 100%; }
-  .footMenu a {
-    display: block;
-    position: relative;
-    float: left;
-    padding: 0;
-    margin: 0;
-    font-size: 1em;
-    text-align: center;
-    width: 25%; }
-    .footMenu a:hover {
-      text-decoration: underline;
-      color: #ff5252; }
+  footer .footMenu {
+    width: 100%; }
+    footer .footMenu a {
+      display: block;
+      position: relative;
+      float: left;
+      padding: 0;
+      margin: 0;
+      font-size: 1em;
+      text-align: center;
+      width: 25%;
+      border-right: 1px solid #efebe9;
+      color: #efebe9; }
+      footer .footMenu a:last-child {
+        border: none; }
+      footer .footMenu a:hover {
+        text-decoration: underline;
+        color: #ff5252; }
 
 /*# sourceMappingURL=main.css.map */

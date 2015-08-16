@@ -30,7 +30,7 @@
 
 html
   background: $htmlColor
-  font-family: 'Forum', cursive
+  //font-family: "Ikra"
 
 .mainHead
   display: block
@@ -215,7 +215,7 @@ figure.effect-sarah:hover a::after
   padding: 10px 0 10px
   text-align: center
   h3
-    font-family: 'Forum', cursive
+    font-family: "Ikra"
     margin: 0
 
 .mainHead
@@ -239,7 +239,7 @@ figure.effect-sarah:hover a::after
     .mainDescr
       display: block
       p
-        font-family: 'Philosopher', sans-serif
+        font-family: "Ikra"
         color: $mainSlog
         font-size: 1.6rem
         text-shadow: 0 2px 0 black
@@ -388,28 +388,34 @@ footer
   p
     margin: 0
     padding: 0
+  .copyright
+    text-align: right
+    color: $mainLogoColor
   .socButtons
-    height: 150px
+    height: 80px
     display: block
     position: relative
     a
       font-size: 16px
-      padding: 25px 12px 8px
-      color: $sandwich
+      padding: 10px 12px 8px
+      color: $mainLogoColor
       &:hover
         color: $menu
-
-.footMenu
-  width: 100%
-  a
-    display: block
-    position: relative
-    float: left
-    padding: 0
-    margin: 0
-    font-size: 1em
-    text-align: center
-    width: 25%
-    &:hover
-      text-decoration: underline
-      color: $mainTextp
+  .footMenu
+    width: 100%
+    a
+      display: block
+      position: relative
+      float: left
+      padding: 0
+      margin: 0
+      font-size: 1em
+      text-align: center
+      width: 25%
+      border-right: 1px solid $htmlColor
+      color: $htmlColor
+      &:last-child
+        border: none
+      &:hover
+        text-decoration: underline
+        color: $mainTextp
