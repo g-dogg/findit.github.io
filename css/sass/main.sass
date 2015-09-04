@@ -30,7 +30,7 @@
 
 html
   background: $htmlColor
-  //font-family: "Ikra"
+  color: $fontColor
 
 .mainHead
   display: block
@@ -241,8 +241,8 @@ figure.effect-sarah:hover a::after
       p
         font-family: "Ikra"
         color: $mainSlog
-        font-size: 1.6rem
-        text-shadow: 0 2px 0 black
+        font-size: 1.2rem
+        text-shadow: 0 1px 0 $loaderBG
         &:nth-child(1)
           +animation-delay(1.7s)
         &:nth-child(2)
@@ -252,6 +252,11 @@ figure.effect-sarah:hover a::after
     .sendRequest
       margin-top: 30px
       +animation-delay(2.5s)
+
+.btn_clr
+  background: $mainLogoColor
+.btn_clr2
+  background: $fontColor
 
 $imgH: 150px
 
@@ -352,7 +357,7 @@ $imgH: 150px
     opacity: 1
     transform: translateY(0px)
   .mask
-    background-color: rgba(219,127,8, 0.7)
+    background-color: rgba(202,97,64, 0.7)
     transition: all 0.4s ease-in-out
     &:hover
       opacity: 1
@@ -370,6 +375,7 @@ $imgH: 150px
       transition-delay: 0.2s
 
 .watchword, .contacts
+  background: $watchBG
   min-height: 480px
   height: 680px
   .cites
@@ -384,8 +390,19 @@ $imgH: 150px
       +animation-delay(1.5s)
       &:first-of-type
         opacity: 1
+.contacts
+  h5
+    text-align: center
+  .input-field label
+    color: $fontColor
+  .input-field input[type=text], input[type=email], input[type=tel]
+    &:focus
+      border-bottom: 1px solid $htmlColor
+      box-shadow: 0 1px 0 0 $htmlColor
+
 
 footer
+  background: $loaderBG
   padding-top: 50px
   .row
     margin-bottom: 0
@@ -394,7 +411,7 @@ footer
     padding: 0
   .copyright
     text-align: right
-    color: $mainLogoColor
+    color: $htmlColor
   .socButtons
     height: 80px
     display: block
@@ -402,7 +419,7 @@ footer
     a
       font-size: 16px
       padding: 10px 12px 8px
-      color: $mainLogoColor
+      color: $htmlColor
       &:hover
         color: $menu
   .footMenu
