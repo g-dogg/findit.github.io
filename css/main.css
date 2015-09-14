@@ -225,10 +225,9 @@ figure.effect-sarah:hover a::after {
     .mainHead .titleWrapper .mainDescr {
       display: block; }
       .mainHead .titleWrapper .mainDescr p {
-        font-family: "Ikra";
+        font-family: "Anonymous Pro";
         color: #ffebee;
-        font-size: 1.2rem;
-        text-shadow: 0 1px 0 #566683; }
+        font-size: 1.5rem; }
         .mainHead .titleWrapper .mainDescr p:nth-child(1) {
           -webkit-animation-delay: 1.7s;
           -moz-animation-delay: 1.7s;
@@ -246,6 +245,8 @@ figure.effect-sarah:hover a::after {
       -webkit-animation-delay: 2.5s;
       -moz-animation-delay: 2.5s;
       animation-delay: 2.5s; }
+      .mainHead .titleWrapper .sendRequest a {
+        font-family: "Anonymous Pro"; }
 
 .btn_clr {
   background: #CA6144; }
@@ -258,6 +259,7 @@ figure.effect-sarah:hover a::after {
   width: 100%; }
 
 .about p {
+  font-size: 1.2rem;
   display: inline-block;
   text-align: justify;
   margin: 20px auto;
