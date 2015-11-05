@@ -276,6 +276,8 @@ figure.effect-sarah:hover a::after {
   background: url("../img/user.jpg") no-repeat; }
 .about .abImg2 {
   background: url("../img/corp.jpg") no-repeat; }
+.about .abImg3 {
+  background: url("../img/site.jpg") no-repeat; }
 
 .contacts .left {
   border-right: 1px solid #265D6B; }
