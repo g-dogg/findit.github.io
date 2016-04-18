@@ -289,81 +289,6 @@ $imgH: 150px
   .left
     border-right: 1px solid $menu
 
-.pfItem
-  width: 100%
-  height: 300px
-  margin: 0
-  border: none
-  overflow: hidden
-  position: relative
-  text-align: center
-  cursor: nw-resize
-  .mask
-    width: 100%
-    height: 300px
-    position: absolute
-    overflow: hidden
-    top: 0
-    left: 0
-  img
-    display: block
-    position: relative
-  h2
-    text-transform: uppercase
-    color: #fff
-    text-align: center
-    position: relative
-    font-size: 17px
-    padding: 10px
-    background: rgba(0, 0, 0, 0.8)
-    margin: 20px 0 0 0
-  p
-    font-family: Georgia, serif
-    font-style: italic
-    font-size: 12px
-    position: relative
-    color: #fff
-    padding: 10px 20px 20px
-    text-align: center
-  a.info
-    display: inline-block
-    text-decoration: none
-    padding: 7px 14px
-    background: #000
-    color: #fff
-    text-transform: uppercase
-    box-shadow: 0 0 1px #000
-    &:hover
-      box-shadow: 0 0 5px #000
-
-.view-first
-  img
-    transition: all 0.2s linear
-  &:hover img
-    transform: scale(1.08)
-  .mask, h2, p, a.info
-    opacity: 0
-  &:hover h2, &:hover p, &:hover a.info
-    opacity: 1
-    transform: translateY(0px)
-  .mask
-    background-color: rgba(202,97,64, 0.7)
-    transition: all 0.4s ease-in-out
-    &:hover
-      opacity: 1
-  h2
-    transform: translateY(-100px)
-    transition: all 0.2s ease-in-out
-  p
-    transform: translateY(100px)
-    transition: all 0.2s linear
-    &:hover
-      transition-delay: 0.1s
-  a.info
-    transition: all 0.2s ease-in-out
-    &:hover
-      transition-delay: 0.2s
-
 .contacts
   background: $watchBG
   min-height: 800px
@@ -390,6 +315,8 @@ $imgH: 150px
       border-bottom: 1px solid $htmlColor
       box-shadow: 0 1px 0 0 $htmlColor
 
+.cabinet
+  display: none
 
 footer
   background: $loaderBG
