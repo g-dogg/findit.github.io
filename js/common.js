@@ -4,6 +4,8 @@ $(document).ready(function() {
 
 	function heightDetect($percentage) {
 		$(".mainHead").css("height", $(window).height() * $percentage );
+		$(".about").css("height", $(window).height() * $percentage );
+		$(".contacts").css("height", $(window).height() * $percentage );
 	};
 	heightDetect(1);
 	$(window).resize(function() {
@@ -55,6 +57,7 @@ $(document).ready(function() {
 	$(".about .abImg1").animated("flipInX", "flipOutX");
 	$(".about .abImg2").animated("flipInX", "flipOutX");
 	$(".about .abImg3").animated("flipInX", "flipOutX");
+	$(".about .abImg4").animated("flipInX", "flipOutX");
 
 	$(".top_mnu ul a, .sendRequest a").mPageScroll2id();
 

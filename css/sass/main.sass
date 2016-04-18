@@ -213,7 +213,7 @@ figure.effect-sarah:hover a::after
   display: block
   top: 0
   left: 0
-  padding: 10px 0 10px
+  padding: 40px 0 60px
   text-align: center
   h3
     font-family: "Ikra"
@@ -257,14 +257,16 @@ figure.effect-sarah:hover a::after
 
 .btn_clr
   background: $mainLogoColor
+  border-radius:  8px
 .btn_clr2
   background: $fontColor
 
 $imgH: 150px
 
-.about, .portfolio, .watchword
+.about, .watchword
   position: relative
   width: 100%
+  min-height: 800px
 
 .about
   p
@@ -272,37 +274,20 @@ $imgH: 150px
     display: inline-block
     text-align: justify
     margin: 20px auto
-    padding: 5px 20px 10px
-  .abImg1, .abImg2, .abImg3
+    padding: 5px 5px 10px
+  .abImg1, .abImg2, .abImg3, .abImg4
+    border-bottom:  2px solid $fontColor
     display: block
     position: relative
-    width: 357px
-    height: 357px
-    background: #b3e5fc
-    border-radius: 15px
-  .abImg1
-    background: url("../img/user.jpg") no-repeat
-  .abImg2
-    background: url("../img/corp.jpg") no-repeat
-  .abImg3
-    background: url("../img/site.jpg") no-repeat
+    //background-color: rgba(0,0,0,.01)
+    .fa
+      margin: 0 auto
+      display: block
+      text-align: center
 
 .contacts
   .left
     border-right: 1px solid $menu
-
-.portfolio
-  margin-bottom: 50px
-  .container
-    width: 1200px
-    margin: 0 auto
-    padding-left: 0
-    padding-right: 0
-    .row
-      width: 1200px
-      margin: 0 0 0
-      .col.s4
-        padding: 0 0 0
 
 .pfItem
   width: 100%
@@ -379,9 +364,9 @@ $imgH: 150px
     &:hover
       transition-delay: 0.2s
 
-.watchword, .contacts
+.contacts
   background: $watchBG
-  min-height: 480px
+  min-height: 800px
   height: 680px
   .cites
     display: block
