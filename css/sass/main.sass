@@ -216,7 +216,6 @@ figure.effect-sarah:hover a::after
   padding: 40px 0 60px
   text-align: center
   h3
-    font-family: "Ikra"
     margin: 0
 
 .mainHead
@@ -240,7 +239,6 @@ figure.effect-sarah:hover a::after
     .mainDescr
       display: block
       p
-        font-family: "Anonymous Pro"
         color: $mainSlog
         font-size: 1.5rem
         &:nth-child(1)
@@ -253,7 +251,6 @@ figure.effect-sarah:hover a::after
       margin-top: 30px
       +animation-delay(2.5s)
       a
-        font-family: "Anonymous Pro"
 
 .btn_clr
   background: $mainLogoColor
@@ -316,7 +313,20 @@ $imgH: 150px
       box-shadow: 0 1px 0 0 $htmlColor
 
 .cabinet
-  display: none
+  //display: none
+  min-height: 800px
+  .leftButton, .avatar, .rightButton
+    border: 1px dotted $loaderBG
+    display: block
+    position: relative
+  .leftButton, .rightButton
+    button
+      width: 100%
+  .avatar
+    img
+      height: 200px
+      width: 180px
+
 
 footer
   background: $loaderBG

@@ -197,7 +197,6 @@ figure.effect-sarah:hover a::after {
   padding: 40px 0 60px;
   text-align: center; }
   .titleWrapper h3 {
-    font-family: "Ikra";
     margin: 0; }
 
 .mainHead {
@@ -226,7 +225,6 @@ figure.effect-sarah:hover a::after {
     .mainHead .titleWrapper .mainDescr {
       display: block; }
       .mainHead .titleWrapper .mainDescr p {
-        font-family: "Anonymous Pro";
         color: #ffebee;
         font-size: 1.5rem; }
         .mainHead .titleWrapper .mainDescr p:nth-child(1) {
@@ -246,8 +244,6 @@ figure.effect-sarah:hover a::after {
       -webkit-animation-delay: 2.5s;
       -moz-animation-delay: 2.5s;
       animation-delay: 2.5s; }
-      .mainHead .titleWrapper .sendRequest a {
-        font-family: "Anonymous Pro"; }
 
 .btn_clr {
   background: #CA6144;
@@ -307,7 +303,16 @@ figure.effect-sarah:hover a::after {
   box-shadow: 0 1px 0 0 #E9E6C9; }
 
 .cabinet {
-  display: none; }
+  min-height: 800px; }
+  .cabinet .leftButton, .cabinet .avatar, .cabinet .rightButton {
+    border: 1px dotted #566683;
+    display: block;
+    position: relative; }
+  .cabinet .leftButton button, .cabinet .rightButton button {
+    width: 100%; }
+  .cabinet .avatar img {
+    height: 200px;
+    width: 180px; }
 
 footer {
   background: #566683;
