@@ -250,7 +250,6 @@ figure.effect-sarah:hover a::after
     .sendRequest
       margin-top: 30px
       +animation-delay(2.5s)
-      a
 
 .btn_clr
   background: $mainLogoColor
@@ -316,17 +315,18 @@ $imgH: 150px
   //display: none
   min-height: 800px
   .leftButton, .avatar, .rightButton
-    border: 1px dotted $loaderBG
     display: block
     position: relative
-  .leftButton, .rightButton
+  .leftButton, .rightButton, .setReq
     button
+      margin: 10px 5px 30px
       width: 100%
   .avatar
     img
       height: 200px
       width: 180px
-
+    button
+      margin: 2px 4px 1px
 
 footer
   background: $loaderBG

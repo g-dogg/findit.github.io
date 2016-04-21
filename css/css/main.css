@@ -305,16 +305,14 @@ figure.effect-sarah:hover a::after {
 .cabinet {
   min-height: 800px; }
   .cabinet .leftButton, .cabinet .avatar, .cabinet .rightButton {
+    border: 1px dotted #566683;
     display: block;
     position: relative; }
-  .cabinet .leftButton button, .cabinet .rightButton button, .cabinet .setReq button {
-    margin: 10px 5px 30px;
+  .cabinet .leftButton button, .cabinet .rightButton button {
     width: 100%; }
   .cabinet .avatar img {
     height: 200px;
     width: 180px; }
-  .cabinet .avatar button {
-    margin: 2px 4px 1px; }
 
 footer {
   background: #566683;
