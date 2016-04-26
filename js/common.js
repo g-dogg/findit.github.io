@@ -35,6 +35,9 @@ $(document).ready(function() {
 			$(".top_mnu li a").addClass("fadeInUp animated");
 		};
 	});
+	//form validation
+	$("input, select, textarea").not("[type=submit]").jqBootstrapValidation();
+	$(".newPassword, .confirmNewPassword").jqBootstrapValidation({sniffHtml: true});
 
 //Вращаем цитатки в цикле
 	 var j = 0;

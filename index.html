@@ -12,13 +12,18 @@
         <link rel="stylesheet" href="libs/animate/animate.min.css">
         <link rel="stylesheet" href="libs/loaders/loaders.min.css">
         <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!--testing-->
         <link rel="stylesheet" href="css/fonts.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/media.css">
     </head>
     <body>
       <div class="loader">
-        <div class="loader-inner ball-scale-ripple-multiple"></div>
+        <div class="loader-inner">
+          <i class="fa fa-cog fa-spin fa-3x fa-fw margin-bottom"></i>
+          <span class="sr-only">Loading...</span>
+
+        </div>
       </div>
       <header class="mainHead" id="home" data-parallax="scroll" data-image-src="img/bg.jpg">
         <div class="contaner">
@@ -70,6 +75,7 @@
           </div>
           <div class="sendRequest">
             <a href="#sendrequest" class="waves-effect waves-orange btn-large inner-shiny btn_clr"><i class="mdi-action-exit-to-app right"></i>Регистрируйся</a>
+            <div><p>Уже зарегистрированы?</p><a href="#">Вход</a></div>
           </div>
         </div>
       </header>
@@ -131,8 +137,8 @@
               <label for="username">Введите логин</label>
             </div>
             <div class="input-field col s6">
-              <input name="email" id="email" type="email" class="validate">
-              <label for="email">Электронная почта</label>
+              <input name="email" id="email" type="email"  class="validate" data-validation-matches-match="email" data-validation-matches-message="Вы не ввели адрес электронной почты" required>
+              <label for="email" data-error="wrong" data-success="right">Электронная почта</label>
             </div>
             <div class="input-field col s12">
               <input name="password" id="password" type="password" class="validate">
