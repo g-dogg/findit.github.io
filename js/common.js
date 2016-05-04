@@ -36,8 +36,31 @@ $(document).ready(function() {
 		};
 	});
 	//form validation
-	$("input, select, textarea").not("[type=submit]").jqBootstrapValidation();
+	/*$("input, select, textarea").not("[type=submit]").jqBootstrapValidation();
 	$(".newPassword, .confirmNewPassword").jqBootstrapValidation({sniffHtml: true});
+*/
+	$('#oldPassword').valid8('Введите старый пароль');
+	function doesPasswordFieldsMatch(values){
+    		if(values.password == values.verification) {
+    			return {valid:true};
+        			//$(".fa fa-check-square").removeClass("hidden");
+    		}
+    		else {
+    			return {valid:false, message:'Passwords does not match'}
+    		}
+
+		}
+
+	$('#inputPassword').valid8('Password is required');
+	$('#inputConfirmPassword').valid8({
+    	'jsFunctions': [
+        		{ function: doesPasswordFieldsMatch, values: function(){
+                		return { password: $('#inputPassword').val(), verification: $('#inputConfirmPassword').val() }
+            		}
+        		}
+    	]
+	});
+
 
 //Вращаем цитатки в цикле
 	 var j = 0;
